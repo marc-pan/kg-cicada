@@ -1,0 +1,70 @@
+{
+    "metadata": {
+      "name": "Test_Catalog_1_Test_Asset_1",
+      "artifact_type": "data_asset",
+      "modified_by": "1000330999",
+      "description": "The asset for validation test of upgrade issue",
+      "created_on": "2023-07-28T12:53:19Z",
+      "steward_ids": [
+        "1000330999"
+      ],
+      "state": "active",
+      "classification_global_ids": [],
+      "classifications": [],
+      "tags": [],
+      "modified_on": "2023-08-02T06:30:07Z"
+    },
+    "entity": {
+      "assets": {
+        "catalog_id": "747d337d-1afd-4e20-8219-fdf19a0ccdc5",
+        "resource_key": "Test_Catalog_1_Test_Asset_1",
+        "connection_ids": [],
+        "connection_paths": [],
+        "column_names": [],
+        "rov": {
+          "privacy": "public",
+          "owners": [
+            "1000330999"
+          ],
+          "viewers": [],
+          "editors": []
+        },
+        "source_system_history": {
+          "asset_ids": [],
+          "system_ids": []
+        }
+      }
+    },
+    "custom_attributes": [
+      {
+        "last_updated_at": 3,
+        "attribute_name": "city",
+        "attribute_value": [
+          "Toronto",
+          "Vancouver",
+          "Montreal"
+        ]
+      },
+      {
+        "last_updated_at": 4,
+        "attribute_name": "country",
+        "attribute_value": [
+          "Canada"
+        ]
+      },
+      {
+        "last_updated_at": 6,
+        "attribute_name": "favorite_color",
+        "attribute_value": [
+          "red",
+          "white",
+          "blue"
+        ]
+      }
+    ],
+    "artifact_id": "b3ff69ae-5e04-4fa6-a7bc-ea463dae5514",
+    "provider_type_id": "cams",
+    "last_updated_at": 1690957807039,
+    "tenant_id": "999",
+    "_score": 0.0
+  }

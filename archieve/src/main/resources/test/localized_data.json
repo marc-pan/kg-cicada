@@ -1,0 +1,32 @@
+{
+  "data": {
+    "default": "Data",
+    "en": "Data",
+    "de": "Daten",
+    "es": "Datos",
+    "fr": "Données",
+    "it": "Dati",
+    "ja": "データ",
+    "ko": "데이터",
+    "pt": "Dados",
+    "ru": "Data",
+    "sv": "Data",
+    "zh": "数据",
+    "zh_TW": "資料"
+  },
+  "column": {
+    "default": "Data column",
+    "en": "Data column",
+    "de": "Datenspalte",
+    "es": "Columna de datos",
+    "fr": "Colonne de données",
+    "it": "Colonna dati",
+    "ja": "データ列",
+    "ko": "데이터 열",
+    "pt": "Coluna de dados",
+    "ru": "Столбец данных",
+    "sv": "datakolumn",
+    "zh": "数据列",
+    "zh_TW": "資料直欄"
+  }
+}

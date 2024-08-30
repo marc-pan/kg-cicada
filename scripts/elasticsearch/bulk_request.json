@@ -1,0 +1,325 @@
+{
+  "requests": [
+    {
+      "operation": "DELETE",
+      "provider_type_id": "test_bulk_index",
+      "request": {
+        "artifact_id": "artifact1",
+        "last_updated_at": 1,
+        "tenant_id": "X"
+      }
+    },
+    {
+      "operation": "INDEX",
+      "provider_type_id": "test_bulk_index",
+      "request": {
+        "artifact_id": "artifact2",
+        "last_updated_at": 1,
+        "tenant_id": "X",
+        "payload": {
+          "metadata": {
+            "modified_on": "2020-02-11T11:32:33.087Z",
+            "artifact_type": "data_asset_column",
+            "name": "Sales Representative",
+            "modified_by": "John Doe",
+            "terms": ["Seller"],
+            "description": "Name of sales rep",
+            "tags": ["fixed"]
+          },
+          "entity": {
+            "assets": {
+              "catalog_id": "catalog_1",
+              "project_id": "project_1",
+              "metadata_enrichment_area_id": "me_area_1",
+              "asset_name": "annual_sales_data.csv",
+              "connection_paths": ["path/path1"],
+              "asset_id": "da1-790fc-a4dd-4e61-95e6-a828f59364fb"
+            },
+            "data_asset_column": {
+              "data_class_name": "Last Name",
+              "data_quality_score": 100,
+              "metadata_enrichment_review_date": "2020-02-15"
+            }
+          }
+        }
+      }
+    },
+    {
+      "operation": "DELETE",
+      "provider_type_id": "test_bulk_index",
+      "request": {
+        "artifact_id": "artifact3",
+        "last_updated_at": 1,
+        "tenant_id": "X"
+      }
+    },
+    {
+      "operation": "INDEX",
+      "provider_type_id": "test_bulk_index",
+      "request": {
+        "last_updated_at": 1,
+        "artifact_id": "artifact4",
+        "tenant_id": "X",
+        "payload": {
+          "metadata": {
+            "modified_on": "2020-02-11T11:32:33.087Z",
+            "artifact_type": "data_asset_column",
+            "name": "Location",
+            "modified_by": "John Doe",
+            "description": "Store location",
+            "tags": ["fixed"]
+          },
+          "entity": {
+            "assets": {
+              "catalog_id": "catalog_1",
+              "project_id": "project_1",
+              "metadata_enrichment_area_id": "me_area_1",
+              "connection_paths": ["path/path1"],
+              "asset_id": "da1-790fc-a4dd-4e61-95e6-a828f59364fb"
+            },
+            "data_asset_column": {
+              "data_class_name": "City",
+              "data_quality_score": 80,
+              "metadata_enrichment_review_date": "2020-02-15"
+            }
+          }
+        }
+      }
+    },
+    {
+      "operation": "INDEX",
+      "provider_type_id": "test_bulk_index",
+      "request": {
+        "last_updated_at": 1,
+        "artifact_id": "artifact5",
+        "tenant_id": "X",
+        "payload": {
+          "metadata": {
+            "modified_on": "2020-02-11T11:32:33.087Z",
+            "artifact_type": "data_asset_column",
+            "name": "Region",
+            "modified_by": "John Doe",
+            "description": "Province where the store is located",
+            "tags": ["fixed"]
+          },
+          "entity": {
+            "assets": {
+              "catalog_id": "catalog_1",
+              "project_id": "project_1",
+              "metadata_enrichment_area_id": "me_area_1",
+              "connection_paths": ["path/path1"],
+              "asset_id": "da1-790fc-a4dd-4e61-95e6-a828f59364fb"
+            },
+            "data_asset_column": {
+              "data_class_name": "Canada Province Name",
+              "data_quality_score": 70,
+              "metadata_enrichment_review_date": "2020-02-15"
+            }
+          }
+        }
+      }
+    },
+    {
+      "operation": "INDEX",
+      "provider_type_id": "test_bulk_index",
+      "request": {
+        "last_updated_at": 1,
+        "artifact_id": "artifact6",
+        "tenant_id": "X",
+        "payload": {
+          "metadata": {
+            "modified_on": "2020-02-11T11:32:33.087Z",
+            "artifact_type": "data_asset_column",
+            "name": "Customer",
+            "modified_by": "John Doe",
+            "description": "Last Name of the customer",
+            "terms": ["Buyer", "Contact Information"],
+            "tags": ["fixed"]
+          },
+          "entity": {
+            "assets": {
+              "catalog_id": "catalog_1",
+              "project_id": "project_1",
+              "metadata_enrichment_area_id": "me_area_1",
+              "connection_paths": ["path/path1"],
+              "asset_id": "da1-790fc-a4dd-4e61-95e6-a828f59364fb"
+            },
+            "data_asset_column": {
+              "data_class_name": "Last Name",
+              "data_quality_score": 60,
+              "metadata_enrichment_review_date": "2020-02-15"
+            }
+          }
+        }
+      }
+    },
+    {
+      "operation": "INDEX",
+      "provider_type_id": "test_bulk_index",
+      "request": {
+        "last_updated_at": 1,
+        "artifact_id": "artifact7",
+        "tenant_id": "X",
+        "payload": {
+          "metadata": {
+            "modified_on": "2020-02-11T11:32:33.087Z",
+            "artifact_type": "data_asset_column",
+            "name": "Order Date",
+            "modified_by": "John Doe",
+            "description": "Date item was ordered",
+            "terms": ["Purchase Date"],
+            "tags": ["fixed"]
+          },
+          "entity": {
+            "assets": {
+              "catalog_id": "catalog_1",
+              "project_id": "project_1",
+              "metadata_enrichment_area_id": "me_area_1",
+              "connection_paths": ["path/path1"],
+              "asset_id": "da1-790fc-a4dd-4e61-95e6-a828f59364fb"
+            },
+            "data_asset_column": {
+              "data_class_name": "Date",
+              "data_quality_score": 50,
+              "metadata_enrichment_review_date": "2020-02-15"
+            }
+          }
+        }
+      }
+    },
+    {
+      "operation": "INDEX",
+      "provider_type_id": "test_bulk_index",
+      "request": {
+        "last_updated_at": 1,
+        "artifact_id": "artifact8",
+        "tenant_id": "X",
+        "payload": {
+          "metadata": {
+            "modified_on": "2020-02-11T11:32:33.087Z",
+            "artifact_type": "data_asset_column",
+            "name": "Item",
+            "modified_by": "John Doe",
+            "description": "Name of item",
+            "tags": ["vary"]
+          },
+          "entity": {
+            "assets": {
+              "catalog_id": "catalog_1",
+              "project_id": "project_1",
+              "metadata_enrichment_area_id": "me_area_1",
+              "connection_paths": ["path/path1"],
+              "asset_id": "da1-790fc-a4dd-4e61-95e6-a828f59364fb"
+            },
+            "data_asset_column": {
+              "data_class_name": "text",
+              "data_quality_score": 40,
+              "metadata_enrichment_review_date": "2020-02-15"
+            }
+          }
+        }
+      }
+    },
+    {
+      "operation": "INDEX",
+      "provider_type_id": "test_bulk_index",
+      "request": {
+        "last_updated_at": 1,
+        "artifact_id": "9",
+        "tenant_id": "X",
+        "payload": {
+          "metadata": {
+            "modified_on": "2020-02-11T11:32:33.087Z",
+            "artifact_type": "data_asset_column",
+            "name": "Quantity",
+            "modified_by": "John Doe",
+            "description": "Number of items",
+            "terms": "Units",
+            "tags": ["vary"]
+          },
+          "entity": {
+            "assets": {
+              "catalog_id": "catalog_1",
+              "project_id": "project_1",
+              "metadata_enrichment_area_id": "me_area_1",
+              "connection_paths": ["path/path1"],
+              "asset_id": "da1-790fc-a4dd-4e61-95e6-a828f59364fb"
+            },
+            "data_asset_column": {
+              "data_quality_score": 30,
+              "metadata_enrichment_review_date": "2020-02-15"
+            }
+          }
+        }
+      }
+    },
+    {
+      "operation": "INDEX",
+      "provider_type_id": "test_bulk_index",
+      "request": {
+        "last_updated_at": 1,
+        "artifact_id": "artifact10",
+        "tenant_id": "X",
+        "payload": {
+          "metadata": {
+            "modified_on": "2020-02-11T11:32:33.087Z",
+            "artifact_type": "data_asset_column",
+            "name": "Price",
+            "modified_by": "John Doe",
+            "description": "Price per item",
+            "terms": "Unit Price",
+            "tags": ["$", "vary"]
+          },
+          "entity": {
+            "assets": {
+              "catalog_id": "catalog_1",
+              "project_id": "project_1",
+              "metadata_enrichment_area_id": "me_area_1",
+              "connection_paths": ["path/path1"],
+              "asset_id": "da1-790fc-a4dd-4e61-95e6-a828f59364fb"
+            },
+            "data_asset_column": {
+              "data_class_name": "Quantity",
+              "data_quality_score": 20,
+              "metadata_enrichment_review_date": "2020-02-15"
+            }
+          }
+        }
+      }
+    },
+    {
+      "operation": "INDEX",
+      "provider_type_id": "test_bulk_index",
+      "request": {
+        "last_updated_at": 1,
+        "artifact_id": "artifact11",
+        "tenant_id": "X",
+        "payload": {
+          "metadata": {
+            "modified_on": "2020-02-11T11:32:33.087Z",
+            "artifact_type": "data_asset_column",
+            "name": "Total Sale Amount",
+            "modified_by": "John Doe",
+            "description": "Total amount from sales",
+            "terms": "Revenue",
+            "tags": ["$", "vary"]
+          },
+          "entity": {
+            "assets": {
+              "catalog_id": "catalog_1",
+              "project_id": "project_1",
+              "metadata_enrichment_area_id": "me_area_1",
+              "connection_paths": ["path/path1"],
+              "asset_id": "da1-790fc-a4dd-4e61-95e6-a828f59364fb"
+            },
+            "data_asset_column": {
+              "data_class_name": "Quantity",
+              "data_quality_score": 10,
+              "metadata_enrichment_review_date": "2020-02-15"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+requests>=2.27.1
+click>=8.0.4
+urllib3
+opensearch-py
+docopt

@@ -1,0 +1,14 @@
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}
+
+subprojects {
+    apply plugin: 'java'
+
+    dependencies {
+        testImplementation 'junit:junit:4.13.1'
+        testImplementation(libs.mockito.core)
+    }
+}

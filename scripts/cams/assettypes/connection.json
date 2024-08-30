@@ -1,0 +1,32 @@
+{
+  "description": "Connection asset type",
+  "fields": [
+    {
+      "key": "datasource_type",
+      "type": "string",
+      "facet": false,
+      "is_array": false,
+      "is_searchable_across_types": false
+    },
+    {
+      "key": "context",
+      "type": "string",
+      "facet": false,
+      "is_array": false,
+      "is_searchable_across_types": false
+    }
+  ],
+  "relationships": [],
+  "localized_metadata_attributes": {
+    "name": {
+      "default": "Connection",
+      "en": "Connection"
+    }
+  },
+  "global_search_searchable": [],
+  "attribute_only": false,
+  "is_column_custom_attribute": false,
+  "version": 1,
+  "name": "connection",
+  "allow_decorators": true
+}

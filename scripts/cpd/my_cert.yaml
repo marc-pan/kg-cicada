@@ -1,0 +1,38 @@
+apiVersion: cert-manager.io/v1
+kind: Issuer
+metadata:
+ name: my-issuer
+spec:
+ selfSigned: {}
+---
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+ name: my-ca-tls
+ labels:
+   ibm-cert-manager-operator/refresh-ca-chain: "true"
+spec:
+ secretName: internal-tls
+ secretTemplate:
+   labels:
+     ibm-cert-manager-operator/refresh-ca-chain: "true"
+ isCA: true
+ duration: 17520h0m0s
+ renewBefore: 5840h0m0s
+ issuerRef:
+   name: my-issuer
+   kind: Issuer
+ commonName: internal-tls
+ dnsNames:
+  - '*.wkc'
+  - '*.wkc.svc'
+  - '*.wkc.svc.cluster.local'
+  - zen-ca-cert.zen
+  - zen-ca-cert.zen.svc
+  - internal-nginx-svc
+  - '*.svc.cluster.local'
+  - api-svc
+  - '*.api'
+  - ibm-nginx-svc
+  - localhost
+  - dsxl-api

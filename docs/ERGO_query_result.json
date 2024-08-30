@@ -1,0 +1,319 @@
+[
+  {
+    "entity": {
+      "id": "f029e0cc-ff82-42f2-bc2e-e60f4d7c1393",
+      "name": "marc_grandparent",
+      "type": "glossary_term",
+      "artifact_guid": [
+        "4232849d-2893-4aa0-962b-b7e7331c93b4_3a84df33-6f8b-40f1-8da7-19be05d33ac8"
+      ],
+      "artifact_id": "3a84df33-6f8b-40f1-8da7-19be05d33ac8",
+      "last_updated_at": "1706603814297",
+      "container_id": "4232849d-2893-4aa0-962b-b7e7331c93b4_9381ae2a-1d84-4863-ba05-46bbca3f57a7",
+      "container_name": "marc_category",
+      "container_type": "category"
+    },
+    "equivalents": [
+      {
+        "id": "ebffa766-0bf0-4ad6-97a6-6f4440a7dd04",
+        "name": "marc_synonym",
+        "type": "glossary_term",
+        "artifact_guid": [
+          "4232849d-2893-4aa0-962b-b7e7331c93b4_f746a957-7500-4196-9c6b-49bd97a85978"
+        ],
+        "artifact_id": "f746a957-7500-4196-9c6b-49bd97a85978"
+      }
+    ],
+    "childs": [
+      {
+        "id": "178b1f24-9f93-4d12-85be-91e08043381a",
+        "name": "marc_parent",
+        "type": "glossary_term",
+        "artifact_guid": [
+          "4232849d-2893-4aa0-962b-b7e7331c93b4_28b40005-8cec-4d8f-95ca-92a258cda658"
+        ],
+        "artifact_id": "28b40005-8cec-4d8f-95ca-92a258cda658"
+      }
+    ],
+    "grand_childs": [
+      {
+        "id": "8012982a-7f35-4a6e-9bd7-5ed215404a88",
+        "name": "marc_child",
+        "type": "glossary_term",
+        "artifact_guid": [
+          "4232849d-2893-4aa0-962b-b7e7331c93b4_aed88160-98d0-4b2c-95d6-f1787d1bba9d"
+        ],
+        "artifact_id": "aed88160-98d0-4b2c-95d6-f1787d1bba9d"
+      }
+    ],
+    "directly_relateds": [
+      {
+        "id": "b56e386a-51e4-4f4a-8967-e87062e3ac2d",
+        "name": "marc_directly_related",
+        "type": "glossary_term",
+        "artifact_guid": [
+          "4232849d-2893-4aa0-962b-b7e7331c93b4_28644700-173d-41ee-9ae8-d729761f874a"
+        ],
+        "artifact_id": "28644700-173d-41ee-9ae8-d729761f874a"
+      },
+      {
+        "id": "a9f04fd9-d1d2-42ee-a6b6-d84f48610073",
+        "name": "marc_data_class",
+        "type": "data_class",
+        "artifact_guid": [
+          "4232849d-2893-4aa0-962b-b7e7331c93b4_afc4081e-976c-4933-80ea-57e00726d51d"
+        ],
+        "artifact_id": "afc4081e-976c-4933-80ea-57e00726d51d"
+      }
+    ],
+    "message_type": "SEMANTIC_INDEX_MESSAGE"
+  },
+  {
+    "entity": {
+      "id": "8012982a-7f35-4a6e-9bd7-5ed215404a88",
+      "name": "marc_child",
+      "type": "glossary_term",
+      "artifact_guid": [
+        "4232849d-2893-4aa0-962b-b7e7331c93b4_aed88160-98d0-4b2c-95d6-f1787d1bba9d"
+      ],
+      "artifact_id": "aed88160-98d0-4b2c-95d6-f1787d1bba9d",
+      "last_updated_at": "1706603814317",
+      "container_id": "4232849d-2893-4aa0-962b-b7e7331c93b4_9381ae2a-1d84-4863-ba05-46bbca3f57a7",
+      "container_name": "marc_category",
+      "container_type": "category"
+    },
+    "childs": [
+      {
+        "id": "5bf79f33-471f-4fb9-a4dc-f71eadd3b11c",
+        "name": "grandchild",
+        "type": "glossary_term",
+        "artifact_guid": [
+          "4232849d-2893-4aa0-962b-b7e7331c93b4_744c490b-56e1-47c4-bb7b-d5cb5368e3ce"
+        ],
+        "artifact_id": "744c490b-56e1-47c4-bb7b-d5cb5368e3ce"
+      }
+    ],
+    "parents": [
+      {
+        "id": "178b1f24-9f93-4d12-85be-91e08043381a",
+        "name": "marc_parent",
+        "type": "glossary_term",
+        "artifact_guid": [
+          "4232849d-2893-4aa0-962b-b7e7331c93b4_28b40005-8cec-4d8f-95ca-92a258cda658"
+        ],
+        "artifact_id": "28b40005-8cec-4d8f-95ca-92a258cda658"
+      }
+    ],
+    "grand_parents": [
+      {
+        "id": "f029e0cc-ff82-42f2-bc2e-e60f4d7c1393",
+        "name": "marc_grandparent",
+        "type": "glossary_term",
+        "artifact_guid": [
+          "4232849d-2893-4aa0-962b-b7e7331c93b4_3a84df33-6f8b-40f1-8da7-19be05d33ac8"
+        ],
+        "artifact_id": "3a84df33-6f8b-40f1-8da7-19be05d33ac8"
+      }
+    ],
+    "directly_relateds": [
+      {
+        "id": "b56e386a-51e4-4f4a-8967-e87062e3ac2d",
+        "name": "marc_directly_related",
+        "type": "glossary_term",
+        "artifact_guid": [
+          "4232849d-2893-4aa0-962b-b7e7331c93b4_28644700-173d-41ee-9ae8-d729761f874a"
+        ],
+        "artifact_id": "28644700-173d-41ee-9ae8-d729761f874a"
+      }
+    ],
+    "message_type": "SEMANTIC_INDEX_MESSAGE"
+  },
+  {
+    "entity": {
+      "id": "178b1f24-9f93-4d12-85be-91e08043381a",
+      "name": "marc_parent",
+      "type": "glossary_term",
+      "artifact_guid": [
+        "4232849d-2893-4aa0-962b-b7e7331c93b4_28b40005-8cec-4d8f-95ca-92a258cda658"
+      ],
+      "artifact_id": "28b40005-8cec-4d8f-95ca-92a258cda658",
+      "last_updated_at": "1706603814338",
+      "container_id": "4232849d-2893-4aa0-962b-b7e7331c93b4_9381ae2a-1d84-4863-ba05-46bbca3f57a7",
+      "container_name": "marc_category",
+      "container_type": "category"
+    },
+    "childs": [
+      {
+        "id": "8012982a-7f35-4a6e-9bd7-5ed215404a88",
+        "name": "marc_child",
+        "type": "glossary_term",
+        "artifact_guid": [
+          "4232849d-2893-4aa0-962b-b7e7331c93b4_aed88160-98d0-4b2c-95d6-f1787d1bba9d"
+        ],
+        "artifact_id": "aed88160-98d0-4b2c-95d6-f1787d1bba9d"
+      }
+    ],
+    "grand_childs": [
+      {
+        "id": "5bf79f33-471f-4fb9-a4dc-f71eadd3b11c",
+        "name": "grandchild",
+        "type": "glossary_term",
+        "artifact_guid": [
+          "4232849d-2893-4aa0-962b-b7e7331c93b4_744c490b-56e1-47c4-bb7b-d5cb5368e3ce"
+        ],
+        "artifact_id": "744c490b-56e1-47c4-bb7b-d5cb5368e3ce"
+      }
+    ],
+    "parents": [
+      {
+        "id": "f029e0cc-ff82-42f2-bc2e-e60f4d7c1393",
+        "name": "marc_grandparent",
+        "type": "glossary_term",
+        "artifact_guid": [
+          "4232849d-2893-4aa0-962b-b7e7331c93b4_3a84df33-6f8b-40f1-8da7-19be05d33ac8"
+        ],
+        "artifact_id": "3a84df33-6f8b-40f1-8da7-19be05d33ac8"
+      }
+    ],
+    "directly_relateds": [
+      {
+        "id": "b56e386a-51e4-4f4a-8967-e87062e3ac2d",
+        "name": "marc_directly_related",
+        "type": "glossary_term",
+        "artifact_guid": [
+          "4232849d-2893-4aa0-962b-b7e7331c93b4_28644700-173d-41ee-9ae8-d729761f874a"
+        ],
+        "artifact_id": "28644700-173d-41ee-9ae8-d729761f874a"
+      }
+    ],
+    "message_type": "SEMANTIC_INDEX_MESSAGE"
+  },
+  {
+    "entity": {
+      "id": "b56e386a-51e4-4f4a-8967-e87062e3ac2d",
+      "name": "marc_directly_related",
+      "type": "glossary_term",
+      "artifact_guid": [
+        "4232849d-2893-4aa0-962b-b7e7331c93b4_28644700-173d-41ee-9ae8-d729761f874a"
+      ],
+      "artifact_id": "28644700-173d-41ee-9ae8-d729761f874a",
+      "last_updated_at": "1706603814358",
+      "container_id": "4232849d-2893-4aa0-962b-b7e7331c93b4_9381ae2a-1d84-4863-ba05-46bbca3f57a7",
+      "container_name": "marc_category",
+      "container_type": "category"
+    },
+    "directly_relateds": [
+      {
+        "id": "8012982a-7f35-4a6e-9bd7-5ed215404a88",
+        "name": "marc_child",
+        "type": "glossary_term",
+        "artifact_guid": [
+          "4232849d-2893-4aa0-962b-b7e7331c93b4_aed88160-98d0-4b2c-95d6-f1787d1bba9d"
+        ],
+        "artifact_id": "aed88160-98d0-4b2c-95d6-f1787d1bba9d"
+      },
+      {
+        "id": "178b1f24-9f93-4d12-85be-91e08043381a",
+        "name": "marc_parent",
+        "type": "glossary_term",
+        "artifact_guid": [
+          "4232849d-2893-4aa0-962b-b7e7331c93b4_28b40005-8cec-4d8f-95ca-92a258cda658"
+        ],
+        "artifact_id": "28b40005-8cec-4d8f-95ca-92a258cda658"
+      },
+      {
+        "id": "f029e0cc-ff82-42f2-bc2e-e60f4d7c1393",
+        "name": "marc_grandparent",
+        "type": "glossary_term",
+        "artifact_guid": [
+          "4232849d-2893-4aa0-962b-b7e7331c93b4_3a84df33-6f8b-40f1-8da7-19be05d33ac8"
+        ],
+        "artifact_id": "3a84df33-6f8b-40f1-8da7-19be05d33ac8"
+      },
+      {
+        "id": "5bf79f33-471f-4fb9-a4dc-f71eadd3b11c",
+        "name": "grandchild",
+        "type": "glossary_term",
+        "artifact_guid": [
+          "4232849d-2893-4aa0-962b-b7e7331c93b4_744c490b-56e1-47c4-bb7b-d5cb5368e3ce"
+        ],
+        "artifact_id": "744c490b-56e1-47c4-bb7b-d5cb5368e3ce"
+      }
+    ],
+    "message_type": "SEMANTIC_INDEX_MESSAGE"
+  },
+  {
+    "entity": {
+      "id": "a9f04fd9-d1d2-42ee-a6b6-d84f48610073",
+      "name": "marc_data_class",
+      "type": "data_class",
+      "artifact_guid": [
+        "4232849d-2893-4aa0-962b-b7e7331c93b4_afc4081e-976c-4933-80ea-57e00726d51d"
+      ],
+      "artifact_id": "afc4081e-976c-4933-80ea-57e00726d51d",
+      "last_updated_at": "1706603814376",
+      "container_id": "4232849d-2893-4aa0-962b-b7e7331c93b4_9381ae2a-1d84-4863-ba05-46bbca3f57a7",
+      "container_name": "marc_category",
+      "container_type": "category"
+    },
+    "directly_relateds": [
+      {
+        "id": "f029e0cc-ff82-42f2-bc2e-e60f4d7c1393",
+        "name": "marc_grandparent",
+        "type": "glossary_term",
+        "artifact_guid": [
+          "4232849d-2893-4aa0-962b-b7e7331c93b4_3a84df33-6f8b-40f1-8da7-19be05d33ac8"
+        ],
+        "artifact_id": "3a84df33-6f8b-40f1-8da7-19be05d33ac8"
+      }
+    ],
+    "message_type": "SEMANTIC_INDEX_MESSAGE"
+  },
+  {
+    "entity": {
+      "id": "ebffa766-0bf0-4ad6-97a6-6f4440a7dd04",
+      "name": "marc_synonym",
+      "type": "glossary_term",
+      "artifact_guid": [
+        "4232849d-2893-4aa0-962b-b7e7331c93b4_f746a957-7500-4196-9c6b-49bd97a85978"
+      ],
+      "artifact_id": "f746a957-7500-4196-9c6b-49bd97a85978",
+      "last_updated_at": "1706603814397",
+      "container_id": "4232849d-2893-4aa0-962b-b7e7331c93b4_9381ae2a-1d84-4863-ba05-46bbca3f57a7",
+      "container_name": "marc_category",
+      "container_type": "category"
+    },
+    "equivalents": [
+      {
+        "id": "f029e0cc-ff82-42f2-bc2e-e60f4d7c1393",
+        "name": "marc_grandparent",
+        "type": "glossary_term",
+        "artifact_guid": [
+          "4232849d-2893-4aa0-962b-b7e7331c93b4_3a84df33-6f8b-40f1-8da7-19be05d33ac8"
+        ],
+        "artifact_id": "3a84df33-6f8b-40f1-8da7-19be05d33ac8"
+      }
+    ],
+    "loosely_relateds": [
+      {
+        "id": "8012982a-7f35-4a6e-9bd7-5ed215404a88",
+        "name": "marc_child",
+        "type": "glossary_term",
+        "artifact_guid": [
+          "4232849d-2893-4aa0-962b-b7e7331c93b4_aed88160-98d0-4b2c-95d6-f1787d1bba9d"
+        ],
+        "artifact_id": "aed88160-98d0-4b2c-95d6-f1787d1bba9d"
+      },
+      {
+        "id": "178b1f24-9f93-4d12-85be-91e08043381a",
+        "name": "marc_parent",
+        "type": "glossary_term",
+        "artifact_guid": [
+          "4232849d-2893-4aa0-962b-b7e7331c93b4_28b40005-8cec-4d8f-95ca-92a258cda658"
+        ],
+        "artifact_id": "28b40005-8cec-4d8f-95ca-92a258cda658"
+      }
+    ],
+    "message_type": "SEMANTIC_INDEX_MESSAGE"
+  }
+]

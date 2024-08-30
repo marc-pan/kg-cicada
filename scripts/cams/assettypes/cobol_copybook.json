@@ -1,0 +1,108 @@
+{
+  "description": "Cobol Copybook Asset Type",
+  "fields": [
+    {
+      "key": "name",
+      "type": "string",
+      "facet": false,
+      "is_array": false,
+      "search_path": "columns[].name",
+      "is_searchable_across_types": false
+    },
+    {
+      "key": "colname",
+      "type": "string",
+      "facet": false,
+      "is_array": false,
+      "search_path": "columns[].colname",
+      "is_searchable_across_types": false
+    },
+    {
+      "key": "level",
+      "type": "string",
+      "facet": false,
+      "is_array": false,
+      "search_path": "columns[].level",
+      "is_searchable_across_types": false
+    },
+    {
+      "key": "line_type",
+      "type": "string",
+      "facet": false,
+      "is_array": false,
+      "search_path": "columns[].line_type",
+      "is_searchable_across_types": false
+    },
+    {
+      "key": "extract_input_from",
+      "type": "string",
+      "facet": false,
+      "is_array": false,
+      "search_path": "extract.input.from",
+      "is_searchable_across_types": false
+    }
+  ],
+  "relationships": [],
+  "properties": {
+    "defines": {
+      "type": "string",
+      "validated": false,
+      "max_length": 50
+    },
+    "syntax": {
+      "type": "string",
+      "validated": false,
+      "max_length": 50
+    },
+    "residence": {
+      "type": "object",
+      "validated": false,
+      "properties": {
+        "dsname": {
+          "type": "string",
+          "validated": false,
+          "max_length": 50
+        },
+        "lastmod": {
+          "type": "string",
+          "required": true,
+          "validated": false,
+          "max_length": 21
+        },
+        "member": {
+          "type": "string",
+          "validated": false,
+          "minimum": 8
+        },
+        "user": {
+          "type": "string",
+          "validated": false,
+          "minimum": 8
+        }
+      }
+    },
+    "extract": {
+      "type": "object",
+      "validated": false,
+      "properties": {
+        "input": {
+          "type": "object",
+          "validated": false,
+          "properties": {
+            "from": {
+              "type": "string",
+              "validated": false,
+              "max_length": 50
+            }
+          }
+        }
+      }
+    }
+  },
+  "global_search_searchable": [],
+  "attribute_only": false,
+  "is_column_custom_attribute": false,
+  "version": 1,
+  "name": "cobol_copybook",
+  "allow_decorators": true
+}

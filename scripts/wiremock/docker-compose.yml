@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  wiremock:
+    image: wiremock/wiremock:latest
+    container_name: wiremock-service
+    volumes:
+      - ./local-setup:/home/wiremock
+    entrypoint: ["/docker-entrypoint.sh", "--global-response-templating", "--disable-gzip", "--verbose"]
+    ports:
+      - 8383:8080

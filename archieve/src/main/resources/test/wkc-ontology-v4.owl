@@ -1,0 +1,428 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#"
+     xml:base="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology"/>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#assigned -->
+
+    <owl:ObjectProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#assigned">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Artifact"/>
+        <rdfs:label>assigned</rdfs:label>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#context -->
+
+    <owl:ObjectProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#context">
+        <rdfs:domain rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#BusinessMetadata"/>
+        <rdfs:range rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#BusinessMetadata"/>
+        <rdfs:comment>For Primary Category</rdfs:comment>
+        <rdfs:label>context</rdfs:label>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#has -->
+
+    <owl:ObjectProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#has">
+        <owl:inverseOf rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#is_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Term"/>
+        <rdfs:range rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Term"/>
+        <rdfs:label>has</rdfs:label>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#has_type -->
+
+    <owl:ObjectProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#has_type">
+        <owl:inverseOf rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#is_a_type_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Term"/>
+        <rdfs:range rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Term"/>
+        <rdfs:label>has type</rdfs:label>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#is_a_child_of -->
+
+    <owl:ObjectProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#is_a_child_of">
+        <owl:inverseOf rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#is_a_parent_of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#BusinessMetadata"/>
+        <rdfs:range rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#BusinessMetadata"/>
+        <rdfs:label>is a child of</rdfs:label>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#is_a_parent_of -->
+
+    <owl:ObjectProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#is_a_parent_of">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#BusinessMetadata"/>
+        <rdfs:range rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#BusinessMetadata"/>
+        <rdfs:label>is a parent of</rdfs:label>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#is_a_type_of -->
+
+    <owl:ObjectProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#is_a_type_of">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Term"/>
+        <rdfs:range rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Term"/>
+        <rdfs:label>is_a_type_of</rdfs:label>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#is_of -->
+
+    <owl:ObjectProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#is_of">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Term"/>
+        <rdfs:range rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Term"/>
+        <rdfs:comment>same to &apos; is a&apos;</rdfs:comment>
+        <rdfs:label>is of</rdfs:label>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#is_steward_of -->
+
+    <owl:ObjectProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#is_steward_of">
+        <rdfs:domain rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>is steward of</rdfs:label>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#referencing -->
+
+    <owl:ObjectProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#referencing">
+        <rdfs:domain rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Artifact"/>
+        <rdfs:range rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Category"/>
+        <rdfs:comment>For Secondary Category</rdfs:comment>
+        <rdfs:label>referencing</rdfs:label>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#related -->
+
+    <owl:ObjectProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#related">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#BusinessMetadata"/>
+        <rdfs:range rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#BusinessMetadata"/>
+        <rdfs:label>related</rdfs:label>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#replaced_by -->
+
+    <owl:ObjectProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#replaced_by">
+        <owl:inverseOf rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#replaces"/>
+        <rdfs:domain rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Term"/>
+        <rdfs:range rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Term"/>
+        <rdfs:label>replaced by</rdfs:label>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#replaces -->
+
+    <owl:ObjectProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#replaces">
+        <rdfs:domain rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Term"/>
+        <rdfs:range rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Term"/>
+        <rdfs:label>replaces</rdfs:label>
+    </owl:ObjectProperty>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#synonym -->
+
+    <owl:ObjectProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#synonym">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Term"/>
+        <rdfs:range rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Term"/>
+        <rdfs:label>synonym</rdfs:label>
+    </owl:ObjectProperty>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#abbreviations -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#abbreviations">
+        <rdfs:label>abbreviations</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#alternative_names -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#alternative_names">
+        <rdfs:comment>For KA custom attributes</rdfs:comment>
+        <rdfs:label>alternative_names</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#container_id -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#container_id"/>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#container_name -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#container_name"/>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#container_type -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#container_type"/>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#description -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#description"/>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#id -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#id"/>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#last_updated -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#last_updated">
+        <rdfs:label>last_updated</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#name -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#name"/>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#producer_property -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#producer_property">
+        <rdfs:comment>for artifact_guid</rdfs:comment>
+        <rdfs:label>producer_property</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#provider -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#provider">
+        <rdfs:comment>for provider id</rdfs:comment>
+        <rdfs:label>provider</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#tenant_id -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#tenant_id">
+        <rdfs:label>tenant_id</rdfs:label>
+    </owl:DatatypeProperty>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#type -->
+
+    <owl:DatatypeProperty rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#type"/>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Artifact -->
+
+    <owl:Class rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Artifact">
+        <rdfs:subClassOf rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#BusinessMetadata"/>
+        <rdfs:label>Artifact</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Asset -->
+
+    <owl:Class rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Asset">
+        <rdfs:subClassOf rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#TechnicalMetadata"/>
+    </owl:Class>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#BusinessMetadata -->
+
+    <owl:Class rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#BusinessMetadata">
+        <rdfs:label>BusinessMetadata</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Category -->
+
+    <owl:Class rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Category">
+        <rdfs:subClassOf rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#BusinessMetadata"/>
+        <rdfs:comment>Business Category</rdfs:comment>
+        <rdfs:label>Category</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Classification -->
+
+    <owl:Class rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Classification">
+        <rdfs:subClassOf rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Artifact"/>
+        <rdfs:label>Classification</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#DataClass -->
+
+    <owl:Class rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#DataClass">
+        <rdfs:subClassOf rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Artifact"/>
+        <rdfs:label>Data Class</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#DataProtection -->
+
+    <owl:Class rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#DataProtection">
+        <rdfs:subClassOf rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Rules"/>
+        <rdfs:label>DataProtection</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Governance -->
+
+    <owl:Class rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Governance">
+        <rdfs:subClassOf rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Rules"/>
+        <rdfs:label>Governance</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Person -->
+
+    <owl:Class rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Person">
+        <rdfs:label>Person</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Policy -->
+
+    <owl:Class rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Policy">
+        <rdfs:subClassOf rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Artifact"/>
+        <rdfs:label>Policy</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#ReferenceDataSet -->
+
+    <owl:Class rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#ReferenceDataSet">
+        <rdfs:subClassOf rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Artifact"/>
+        <rdfs:label>ReferenceDataSet</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#ReferenceDataValue -->
+
+    <owl:Class rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#ReferenceDataValue">
+        <rdfs:subClassOf rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Artifact"/>
+        <rdfs:label>ReferenceDataValue</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Rules -->
+
+    <owl:Class rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Rules">
+        <rdfs:subClassOf rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Artifact"/>
+        <rdfs:label>Rules</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#TechnicalMetadata -->
+
+    <owl:Class rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#TechnicalMetadata">
+        <rdfs:label>TechnicalMetadata</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Term -->
+
+    <owl:Class rdf:about="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Term">
+        <rdfs:subClassOf rdf:resource="https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#Artifact"/>
+        <rdfs:comment>Business Terms</rdfs:comment>
+        <rdfs:label>Term</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->

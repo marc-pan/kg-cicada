@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+   fdb1:
+     image: foundationdb/foundationdb:6.0.15
+     ports:
+     - 4500:4500
+   els1:
+     image: docker.elastic.co/elasticsearch/elasticsearch:6.3.2
+     ports:
+     - 9300:9300
+     - 9200:9200
+     environment:
+     - discovery.type=single-node
+     depends_on:
+     - fdb1
+   janus1:
+    #image: 164.99.163.225/gshalabh/janusgraph:latest
+     image: janusgraph-on-fdb:latest
+     depends_on:
+     - els1
+     - fdb1
+     links:
+     - fdb1:foundationdb
+     ports:
+     - 8182:8182
+     environment:
+     - ELASTICSEARCH_IP=els1
+     - ELASTICSEARCH_PORT=9200

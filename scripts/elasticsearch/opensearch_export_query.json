@@ -1,0 +1,16 @@
+[
+  {
+    "size": 10000,
+    "query": {
+      "match_all": {}
+    },
+    "sort": [
+      {
+        "@timestamp": {
+          "order": "asc",
+          "unmapped_type": "date"
+        }
+      }
+    ]
+  }
+]

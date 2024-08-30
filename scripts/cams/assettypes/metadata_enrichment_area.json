@@ -1,0 +1,94 @@
+{
+  "fields": [
+    {
+      "key": "name",
+      "type": "string",
+      "facet": false,
+      "is_array": false,
+      "is_searchable_across_types": false
+    },
+    {
+      "key": "target_catalog_id",
+      "type": "string",
+      "facet": false,
+      "is_array": false,
+      "is_searchable_across_types": false
+    },
+    {
+      "key": "governance_scope_ids",
+      "type": "string",
+      "facet": false,
+      "is_array": false,
+      "search_path": "objective.governance_scope[].id",
+      "is_searchable_across_types": false
+    }
+  ],
+  "relationships": [
+    {
+      "key": "job.id",
+      "target_asset_type": "job",
+      "on_delete_target": "DISCONNECT",
+      "on_delete": "CASCADE",
+      "on_clone_target": "IGNORE",
+      "on_clone": "IGNORE",
+      "on_promote": "IGNORE",
+      "on_publish": "IGNORE"
+    },
+    {
+      "key": "publish_job.id",
+      "target_asset_type": "job",
+      "on_delete_target": "DISCONNECT",
+      "on_delete": "CASCADE",
+      "on_clone_target": "IGNORE",
+      "on_clone": "IGNORE",
+      "on_promote": "IGNORE",
+      "on_publish": "IGNORE"
+    },
+    {
+      "key": "key_analysis.shallow_job_id",
+      "target_asset_type": "job",
+      "on_delete_target": "DISCONNECT",
+      "on_delete": "CASCADE",
+      "on_clone_target": "IGNORE",
+      "on_clone": "IGNORE",
+      "on_promote": "IGNORE",
+      "on_publish": "IGNORE"
+    },
+    {
+      "key": "key_analysis.deep_pk_job_id",
+      "target_asset_type": "job",
+      "on_delete_target": "DISCONNECT",
+      "on_delete": "CASCADE",
+      "on_clone_target": "IGNORE",
+      "on_clone": "IGNORE",
+      "on_promote": "IGNORE",
+      "on_publish": "IGNORE"
+    },
+    {
+      "key": "key_analysis.deep_fk_job_id",
+      "target_asset_type": "job",
+      "on_delete_target": "DISCONNECT",
+      "on_delete": "CASCADE",
+      "on_clone_target": "IGNORE",
+      "on_clone": "IGNORE",
+      "on_promote": "IGNORE",
+      "on_publish": "IGNORE"
+    },
+    {
+      "key": "key_analysis.overlap_job_id",
+      "target_asset_type": "job",
+      "on_delete_target": "DISCONNECT",
+      "on_delete": "CASCADE",
+      "on_clone_target": "IGNORE",
+      "on_clone": "IGNORE",
+      "on_promote": "IGNORE",
+      "on_publish": "IGNORE"
+    }
+  ],
+  "global_search_searchable": [],
+  "attribute_only": false,
+  "is_column_custom_attribute": false,
+  "version": 1,
+  "name": "metadata_enrichment_area",
+  "allow_decorators": true
+}

@@ -1,0 +1,49 @@
+{
+  "description": "RShiny",
+  "fields": [
+    {
+      "key": "name",
+      "type": "string",
+      "facet": false,
+      "is_array": false,
+      "is_searchable_across_types": false
+    },
+    {
+      "key": "software_spec.id",
+      "type": "string",
+      "facet": false,
+      "is_array": false,
+      "search_path": "software_spec.id",
+      "is_searchable_across_types": false
+    },
+    {
+      "key": "software_spec.base_id",
+      "type": "string",
+      "facet": false,
+      "is_array": false,
+      "search_path": "software_spec.base_id",
+      "is_searchable_across_types": false
+    }
+  ],
+  "relationships": [
+    {
+      "key": "software_spec.id",
+      "target_asset_type": "software_specification",
+      "on_delete_target": "IGNORE",
+      "on_delete": "IGNORE",
+      "on_clone_target": "IGNORE",
+      "on_clone": "IGNORE",
+      "on_promote": "IGNORE",
+      "on_publish": "IGNORE"
+    }
+  ],
+  "localized_metadata_attributes": {
+    "name": { "default": "Shiny app", "en": "Shiny app" }
+  },
+  "global_search_searchable": [],
+  "attribute_only": false,
+  "is_column_custom_attribute": false,
+  "version": 1,
+  "name": "shiny_asset",
+  "allow_decorators": true
+}

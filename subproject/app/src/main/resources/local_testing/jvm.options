@@ -1,0 +1,4 @@
+-Dmp.openapi.extensions.liberty.public.url=/data_product_exchange/v1/data_products/api
+-Dmp.openapi.scan.disable=true
+-Dmp.openapi.extensions.liberty.merged.info="{\"title\":\"Knowledge Graph API Service\",\"description\":"Knowledge Graph API Service\", \"version\":\"v1\"}"
+-Dlog4j.configurationFile=file:./../../../../../src/dist/resources/payload/helm/data-product-api-chart/files/log4j2-prod.xml

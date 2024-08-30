@@ -1,0 +1,7 @@
+{
+  "provider_type_id_list": ["cams"],
+  "artifact_guid": "7b18d84d-8964-4b1a-82b5-546cd7687786",
+  "last_updated_at": 1708412621295,
+  "message_type": "DELETE_MESSAGE",
+  "tenant_id_list": ["999"]
+}

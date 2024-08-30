@@ -1,0 +1,62 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  annotations:
+    meta.helm.sh/release-name: data-product-metering
+    meta.helm.sh/release-namespace: dph
+  labels:
+    app: data-product-metering
+    app.kubernetes.io/managed-by: Helm
+  name: data-product-metering-archive
+spec:
+  concurrencyPolicy: Allow
+  failedJobsHistoryLimit: 1
+  jobTemplate:
+    metadata:
+      creationTimestamp: null
+    spec:
+      backoffLimit: 1
+      template:
+        metadata:
+          creationTimestamp: null
+          labels:
+            app: data-product-metering
+        spec:
+          containers:
+          - command:
+            - java
+            - -jar
+            - /metering/batch.jar
+            - archiveUsage
+            env:
+            - name: POD_IP
+              valueFrom:
+                fieldRef:
+                  apiVersion: v1
+                  fieldPath: status.podIP
+            - name: NODE_IP
+              valueFrom:
+                fieldRef:
+                  apiVersion: v1
+                  fieldPath: status.hostIP
+            - name: NODE_HOST_NAME
+              valueFrom:
+                fieldRef:
+                  apiVersion: v1
+                  fieldPath: spec.nodeName
+            - name: ENVIRONMENT_NAME
+              value: ys1-dev
+            image: localhost/batch:latest
+            imagePullPolicy: Always
+            name: data-product-metering
+            resources: {}
+            terminationMessagePath: /dev/termination-log
+            terminationMessagePolicy: File
+          dnsPolicy: ClusterFirst
+          restartPolicy: Never
+          schedulerName: default-scheduler
+          securityContext: {}
+          terminationGracePeriodSeconds: 30
+  schedule: 0 0 1 * *
+  successfulJobsHistoryLimit: 1
+  suspend: false

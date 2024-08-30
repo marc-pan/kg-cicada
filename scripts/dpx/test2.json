@@ -1,0 +1,3122 @@
+{
+  "total_rows": 73,
+  "results": [
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T05:54:26Z",
+          "last_updater_id": "iam-ServiceId-22703c26-a14f-4691-a616-0177c4e1a3e1",
+          "last_update_time": 1717480466531,
+          "last_accessed_at": "2024-06-04T05:54:26Z",
+          "last_access_time": 1717480466531,
+          "last_accessor_id": "iam-ServiceId-22703c26-a14f-4691-a616-0177c4e1a3e1",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 16,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            },
+            "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb": {
+              "user_iam_id": "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb",
+              "roles": ["OWNER", "EDITOR"]
+            },
+            "IBMid-6620039NV8": {
+              "user_iam_id": "IBMid-6620039NV8",
+              "roles": ["VIEWER"]
+            }
+          }
+        },
+        "is_primary_attachment_downloadable": false,
+        "name": "TEST : a8854bfb-cf3a-41fe-8ee8-dc846f64b3db",
+        "description": "TEST",
+        "asset_type": "data_asset",
+        "origin_country": "us",
+        "resource_key": "0000:0000:0000:0000:0000:FFFF:A93F:2E08|50001|BLUDB:/TM_WKC_UI/TEST_a8854bfb-cf3a-41fe-8ee8-dc846f64b3db",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T05:54:26Z",
+        "owner_id": "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["data_asset", "ibm_trust_properties"],
+        "asset_id": "17521b2b-3889-43f0-9c7f-831da8ab29d3",
+        "asset_category": "USER",
+        "creator_id": "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/17521b2b-3889-43f0-9c7f-831da8ab29d3?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T05:23:59Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717478639011,
+          "last_accessed_at": "2024-06-04T05:23:59Z",
+          "last_access_time": 1717478639011,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            },
+            "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb": {
+              "user_iam_id": "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb",
+              "roles": ["VIEWER"]
+            }
+          }
+        },
+        "name": "Marc_DP_1",
+        "description": "",
+        "asset_type": "ibm_data_product_version",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T05:10:22Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_version"],
+        "asset_id": "e6d83c4a-68c4-4911-92b7-eb79209baa64",
+        "asset_category": "USER",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/e6d83c4a-68c4-4911-92b7-eb79209baa64?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T05:23:55Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717478635965,
+          "last_accessed_at": "2024-06-04T05:23:55Z",
+          "last_access_time": 1717478635965,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "is_primary_attachment_downloadable": true,
+        "name": "Untitled - Jun 4, 2024 1:07 PM - contract terms",
+        "asset_type": "ibm_data_product_contract_terms",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T05:10:21Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 10442,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_contract_terms"],
+        "asset_id": "0a0c3c37-4be3-4a9a-89aa-e1289a15927e",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/0a0c3c37-4be3-4a9a-89aa-e1289a15927e?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T05:10:20Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717477820679,
+          "last_accessed_at": "2024-06-04T05:10:20Z",
+          "last_access_time": 1717477820679,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "4217f94a-3a5c-41d2-81ea-57357bd0dc22-VisualizationAsset",
+        "asset_type": "dataview_visualization",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T05:10:20Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["dataview_visualization"],
+        "asset_id": "15fbf4cb-acf4-4864-9d17-56118a5d9eb7",
+        "asset_category": "USER",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/15fbf4cb-acf4-4864-9d17-56118a5d9eb7?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T05:10:21Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717477821196,
+          "last_accessed_at": "2024-06-04T05:10:21Z",
+          "last_access_time": 1717477821196,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "TEST",
+        "asset_type": "ibm_data_product_part",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T05:10:18Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_part"],
+        "asset_id": "08a56a4a-78b3-460f-a8dc-f10991772851",
+        "asset_category": "USER",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/08a56a4a-78b3-460f-a8dc-f10991772851?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T05:23:59Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717478639011,
+          "last_accessed_at": "2024-06-04T05:23:59Z",
+          "last_access_time": 1717478639011,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            },
+            "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb": {
+              "user_iam_id": "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb",
+              "roles": ["VIEWER"]
+            }
+          }
+        },
+        "is_primary_attachment_downloadable": false,
+        "name": "TEST",
+        "description": "TEST",
+        "asset_type": "data_asset",
+        "origin_country": "us",
+        "resource_key": "0000:0000:0000:0000:0000:FFFF:A93F:2E08|50001|BLUDB:/TM_WKC_UI/TEST",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T05:10:17Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 3835,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["data_asset", "dataview_visualization"],
+        "asset_id": "4217f94a-3a5c-41d2-81ea-57357bd0dc22",
+        "asset_category": "USER",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/4217f94a-3a5c-41d2-81ea-57357bd0dc22?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:54:06Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476846171,
+          "last_accessed_at": "2024-06-04T04:54:06Z",
+          "last_access_time": 1717476846171,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            },
+            "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb": {
+              "user_iam_id": "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb",
+              "roles": ["VIEWER"]
+            }
+          }
+        },
+        "name": "Environment Statistics of Water",
+        "description": "Water and waste statistics by country for the years 1990 and 1995 to 2009.",
+        "tags": ["Sample"],
+        "asset_type": "ibm_data_product_version",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:54:05Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_version"],
+        "asset_id": "0ea1c2c2-f371-4c7a-b89e-a6e254023e6d",
+        "asset_category": "USER",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/0ea1c2c2-f371-4c7a-b89e-a6e254023e6d?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:54:04Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476844760,
+          "last_accessed_at": "2024-06-04T04:54:04Z",
+          "last_access_time": 1717476844760,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            },
+            "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb": {
+              "user_iam_id": "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb",
+              "roles": ["VIEWER"]
+            }
+          }
+        },
+        "name": "Car Performance Data",
+        "description": "Car performance data from 1983. Includes MPG, engine size, number of cylinders, horsepower, acceleration, etc.",
+        "tags": ["Sample"],
+        "asset_type": "ibm_data_product_version",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:54:03Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_version"],
+        "asset_id": "7fa8d9db-6089-4c75-9cac-23720317a680",
+        "asset_category": "USER",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/7fa8d9db-6089-4c75-9cac-23720317a680?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:54:03Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476843110,
+          "last_accessed_at": "2024-06-04T04:54:03Z",
+          "last_access_time": 1717476843110,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            },
+            "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb": {
+              "user_iam_id": "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb",
+              "roles": ["VIEWER"]
+            }
+          }
+        },
+        "name": "Airbnb Data Reviews",
+        "description": "Airbnb reviews for Toronto, Ontario, Canada.",
+        "tags": ["Sample"],
+        "asset_type": "ibm_data_product_version",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:54:01Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_version"],
+        "asset_id": "25926caa-7956-4d6b-8578-b77e3d909c46",
+        "asset_category": "USER",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/25926caa-7956-4d6b-8578-b77e3d909c46?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:54:01Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476841626,
+          "last_accessed_at": "2024-06-04T04:54:01Z",
+          "last_access_time": 1717476841626,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            },
+            "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb": {
+              "user_iam_id": "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb",
+              "roles": ["VIEWER"]
+            }
+          }
+        },
+        "name": "Customer Demographic and Sales",
+        "description": "Fictitious customer demographics and sales data such as name, age, address, purchase touchpoint, amount, and item.",
+        "tags": ["Sample"],
+        "asset_type": "ibm_data_product_version",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:54:00Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_version"],
+        "asset_id": "3af5e109-d09c-4b4a-8e23-66d9291d74b3",
+        "asset_category": "USER",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/3af5e109-d09c-4b4a-8e23-66d9291d74b3?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:54:00Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476840108,
+          "last_accessed_at": "2024-06-04T04:54:00Z",
+          "last_access_time": 1717476840108,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            },
+            "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb": {
+              "user_iam_id": "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb",
+              "roles": ["VIEWER"]
+            }
+          }
+        },
+        "name": "Customer Call Records",
+        "description": "Fictitious information representing a log of calls made by customers of a Telco company.",
+        "tags": ["Sample"],
+        "asset_type": "ibm_data_product_version",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:58Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_version"],
+        "asset_id": "783aaf79-d8cf-43f3-84a2-010d0c75565b",
+        "asset_category": "USER",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/783aaf79-d8cf-43f3-84a2-010d0c75565b?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:58Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476838619,
+          "last_accessed_at": "2024-06-04T04:53:58Z",
+          "last_access_time": 1717476838619,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            },
+            "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb": {
+              "user_iam_id": "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb",
+              "roles": ["VIEWER"]
+            }
+          }
+        },
+        "name": "UCI Bank Marketing Data Set",
+        "description": "Demographics and last contact data related to direct marketing campaigns conducted by phone for a Portuguese banking institution.",
+        "tags": ["Sample"],
+        "asset_type": "ibm_data_product_version",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:56Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_version"],
+        "asset_id": "fc413ee8-4012-4fed-b1e2-dc94085f2a01",
+        "asset_category": "USER",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/fc413ee8-4012-4fed-b1e2-dc94085f2a01?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:56Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476836700,
+          "last_accessed_at": "2024-06-04T04:53:56Z",
+          "last_access_time": 1717476836700,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            },
+            "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb": {
+              "user_iam_id": "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb",
+              "roles": ["VIEWER"]
+            }
+          }
+        },
+        "name": "Bakery and Weather Data",
+        "description": "Fictitious sales transactions for a bakery including product, transaction amount, date and time, and weather to provide insight for seasonal promotions.",
+        "tags": ["Sample"],
+        "asset_type": "ibm_data_product_version",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:54Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_version"],
+        "asset_id": "ca7a3e7c-2e59-4690-a5b5-319eaef165b4",
+        "asset_category": "USER",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/ca7a3e7c-2e59-4690-a5b5-319eaef165b4?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:52Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476832351,
+          "last_accessed_at": "2024-06-04T04:53:52Z",
+          "last_access_time": 1717476832351,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Airline Data - contract terms",
+        "asset_type": "ibm_data_product_contract_terms",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:52Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_contract_terms"],
+        "asset_id": "5fbf01a0-6c71-4484-8d5f-0fcf5805f320",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/5fbf01a0-6c71-4484-8d5f-0fcf5805f320?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:52Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476832351,
+          "last_accessed_at": "2024-06-04T04:53:52Z",
+          "last_access_time": 1717476832351,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Customer Call Records - contract terms",
+        "asset_type": "ibm_data_product_contract_terms",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:52Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_contract_terms"],
+        "asset_id": "63eca1c1-ded4-4f29-ab51-d361331a7a06",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/63eca1c1-ded4-4f29-ab51-d361331a7a06?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:52Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476832351,
+          "last_accessed_at": "2024-06-04T04:53:52Z",
+          "last_access_time": 1717476832351,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Airbnb Data Reviews - contract terms",
+        "asset_type": "ibm_data_product_contract_terms",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:52Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_contract_terms"],
+        "asset_id": "3ca1fca9-1a55-4162-a801-15c7c6a73ffc",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/3ca1fca9-1a55-4162-a801-15c7c6a73ffc?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:58Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476838619,
+          "last_accessed_at": "2024-06-04T04:53:58Z",
+          "last_access_time": 1717476838619,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            },
+            "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb": {
+              "user_iam_id": "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb",
+              "roles": ["VIEWER"]
+            }
+          }
+        },
+        "name": "UCI Bank Marketing Data Set",
+        "description": "Demographics and last contact data related to direct marketing campaigns conducted by phone for a Portuguese banking institution. This dataset is sourced from the UCI Machine Learning Repository. A smaller version of this data set containing 10% of the data is available on the Watson Studio Community as well as at https://archive.ics.uci.edu/ml/datasets/Bank+Marketing.",
+        "asset_type": "ibm_url_definition",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:52Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_url_definition"],
+        "asset_id": "3e673d39-a4bd-432d-b872-2e1e204d6489",
+        "asset_category": "USER",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/3e673d39-a4bd-432d-b872-2e1e204d6489?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:52Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476832351,
+          "last_accessed_at": "2024-06-04T04:53:52Z",
+          "last_access_time": 1717476832351,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Bakery and Weather Data - contract terms",
+        "asset_type": "ibm_data_product_contract_terms",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:52Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_contract_terms"],
+        "asset_id": "e76e08fd-780f-4814-aa19-617454fd2482",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/e76e08fd-780f-4814-aa19-617454fd2482?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:54:04Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476844760,
+          "last_accessed_at": "2024-06-04T04:54:04Z",
+          "last_access_time": 1717476844760,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            },
+            "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb": {
+              "user_iam_id": "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb",
+              "roles": ["VIEWER"]
+            }
+          }
+        },
+        "name": "Car Performance Data",
+        "description": "Car performance data from 1983. Includes MPG, engine size, number of cylinders, horsepower, acceleration, etc. This data set was used for the 1983 American Statistical Association Data Exposition.",
+        "asset_type": "ibm_url_definition",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:52Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_url_definition"],
+        "asset_id": "979df6d0-a529-415e-be1c-1fadb09f959b",
+        "asset_category": "USER",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/979df6d0-a529-415e-be1c-1fadb09f959b?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:52Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476832351,
+          "last_accessed_at": "2024-06-04T04:53:52Z",
+          "last_access_time": 1717476832351,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Customer Demographic and Sales - contract terms",
+        "asset_type": "ibm_data_product_contract_terms",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:52Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_contract_terms"],
+        "asset_id": "eeaccb1f-2153-4507-aee7-7d254de362b3",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/eeaccb1f-2153-4507-aee7-7d254de362b3?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:54:06Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476846171,
+          "last_accessed_at": "2024-06-04T04:54:06Z",
+          "last_access_time": 1717476846171,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            },
+            "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb": {
+              "user_iam_id": "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb",
+              "roles": ["VIEWER"]
+            }
+          }
+        },
+        "name": "Environment Statistics of Water",
+        "description": "Water and waste statistics by country for the years 1990 and 1995 to 2009. This data set includes metrics for precipitation, fresh water flow, renewable freshwater, actual evapotranspiration and freshwater internal flow. Statistics on water and waste are based on official statistics supplied by national statistical offices and/or ministries of environment (or equivalent institutions) in countries in response to the biennial UNSD/UNEP Questionnaire on Environment Statistics. They were complemented by data on EU and OECD member and partner countries from OECD and Eurostat. Environment statistics is still in an early stage of development in many countries, and data are often sparse. The statistics selected here are those of relatively good quality and geographic coverage.",
+        "asset_type": "ibm_url_definition",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:52Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_url_definition"],
+        "asset_id": "c535743b-0126-4cff-b01c-be925e061526",
+        "asset_category": "USER",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/c535743b-0126-4cff-b01c-be925e061526?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:54:03Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476843110,
+          "last_accessed_at": "2024-06-04T04:54:03Z",
+          "last_access_time": 1717476843110,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            },
+            "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb": {
+              "user_iam_id": "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb",
+              "roles": ["VIEWER"]
+            }
+          }
+        },
+        "name": "Airbnb Data Reviews",
+        "description": "Airbnb reviews for Toronto, Ontario, Canada. This dataset is sourced from Inside Airbnb which aggregates and cleanses publicly available data from Airbnb for the purpose of supporting deep analytics.",
+        "asset_type": "ibm_url_definition",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:52Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_url_definition"],
+        "asset_id": "5cfafc67-1793-44fc-86f5-ab68ff4c9301",
+        "asset_category": "USER",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/5cfafc67-1793-44fc-86f5-ab68ff4c9301?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:52Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476832351,
+          "last_accessed_at": "2024-06-04T04:53:52Z",
+          "last_access_time": 1717476832351,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Environment Statistics of Water - contract terms",
+        "asset_type": "ibm_data_product_contract_terms",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:52Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_contract_terms"],
+        "asset_id": "d657d0e5-fa35-4e7e-8cb7-26a30959ce7c",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/d657d0e5-fa35-4e7e-8cb7-26a30959ce7c?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:54Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476834753,
+          "last_accessed_at": "2024-06-04T04:53:54Z",
+          "last_access_time": 1717476834753,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            },
+            "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb": {
+              "user_iam_id": "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb",
+              "roles": ["VIEWER"]
+            }
+          }
+        },
+        "name": "Airline Data",
+        "description": "Airline flight information such as departure and arrival times, delays, and cancellations for various airlines from 2004 to 2007.",
+        "asset_type": "ibm_url_definition",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:52Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_url_definition"],
+        "asset_id": "09e2c6ac-d0b6-4ab2-a3e2-1aa6d0330c84",
+        "asset_category": "USER",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/09e2c6ac-d0b6-4ab2-a3e2-1aa6d0330c84?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:54Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476834753,
+          "last_accessed_at": "2024-06-04T04:53:54Z",
+          "last_access_time": 1717476834753,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            },
+            "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb": {
+              "user_iam_id": "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb",
+              "roles": ["VIEWER"]
+            }
+          }
+        },
+        "name": "Airline Data",
+        "description": "Airline flight information such as departure and arrival times, delays, and cancellations for various airlines from 2004 to 2007.",
+        "tags": ["Sample"],
+        "asset_type": "ibm_data_product_version",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:52Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_version"],
+        "asset_id": "7d07ed8d-65c8-4ae9-9ed8-aa47e6bd96c8",
+        "asset_category": "USER",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/7d07ed8d-65c8-4ae9-9ed8-aa47e6bd96c8?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:56Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476836700,
+          "last_accessed_at": "2024-06-04T04:53:56Z",
+          "last_access_time": 1717476836700,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            },
+            "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb": {
+              "user_iam_id": "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb",
+              "roles": ["VIEWER"]
+            }
+          }
+        },
+        "name": "Bakery and Weather Data",
+        "description": "Fictitious sales transactions for a bakery including product, transaction amount, date and time, and weather to provide insight for seasonal promotions. Columns include: Transaction ID, No of Transactions, Sales in USD, Product Group, Product, Season, Month, Hour of Day, Holiday, Day of Week, Workday, Weather, Temperature, Humidity, State, Store ID, Form of payment, Loyalty Member, Gender, Promotion",
+        "asset_type": "ibm_url_definition",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:52Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_url_definition"],
+        "asset_id": "b6ac461a-ee41-4d8f-aed2-7b99a5b80731",
+        "asset_category": "USER",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/b6ac461a-ee41-4d8f-aed2-7b99a5b80731?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:54:01Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476841626,
+          "last_accessed_at": "2024-06-04T04:54:01Z",
+          "last_access_time": 1717476841626,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            },
+            "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb": {
+              "user_iam_id": "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb",
+              "roles": ["VIEWER"]
+            }
+          }
+        },
+        "name": "Customer Demographic and Sales",
+        "description": "Fictitious customer demographics and sales data such as name, age, address, purchase touchpoint, amount, and item.",
+        "asset_type": "ibm_url_definition",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:52Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_url_definition"],
+        "asset_id": "5ba9893d-dde7-41a9-b9b7-303a4e98e844",
+        "asset_category": "USER",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/5ba9893d-dde7-41a9-b9b7-303a4e98e844?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:52Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476832351,
+          "last_accessed_at": "2024-06-04T04:53:52Z",
+          "last_access_time": 1717476832351,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "UCI Bank Marketing Data Set - contract terms",
+        "asset_type": "ibm_data_product_contract_terms",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:52Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_contract_terms"],
+        "asset_id": "32f20f19-fadc-430a-8275-c1d0bac73fb5",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/32f20f19-fadc-430a-8275-c1d0bac73fb5?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:52Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476832351,
+          "last_accessed_at": "2024-06-04T04:53:52Z",
+          "last_access_time": 1717476832351,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Car Performance Data - contract terms",
+        "asset_type": "ibm_data_product_contract_terms",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:52Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_contract_terms"],
+        "asset_id": "68c6f0c2-da4b-41a0-ba65-606299bdba86",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/68c6f0c2-da4b-41a0-ba65-606299bdba86?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:54:00Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476840108,
+          "last_accessed_at": "2024-06-04T04:54:00Z",
+          "last_access_time": 1717476840108,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            },
+            "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb": {
+              "user_iam_id": "iam-ServiceId-fe83e2ce-d3b9-44d3-a980-83518eefefeb",
+              "roles": ["VIEWER"]
+            }
+          }
+        },
+        "name": "Customer Call Records",
+        "description": "Fictitious information representing a log of calls made by customers of a Telco company. This includes details such as the telephone number the call originated from, the telephone number called, as well as the date, time and duration of each call, and whether or not the call was dropped.",
+        "asset_type": "ibm_url_definition",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:52Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_url_definition"],
+        "asset_id": "c035f6d6-847b-4cba-a155-768a82199464",
+        "asset_category": "USER",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/c035f6d6-847b-4cba-a155-768a82199464?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:51Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476831096,
+          "last_accessed_at": "2024-06-04T04:53:51Z",
+          "last_access_time": 1717476831096,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Fraud Management",
+        "description": "The activities that monitor and detect unauthorized and suspicious activities to make sure that the organizations reputation and assets remain protected.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:51Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "3ab95254-be3c-4261-b365-23b7b37c41d1",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/3ab95254-be3c-4261-b365-23b7b37c41d1?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:51Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476831096,
+          "last_accessed_at": "2024-06-04T04:53:51Z",
+          "last_access_time": 1717476831096,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Production",
+        "description": "The creation of a final product for consumers.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:51Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "ce244e0b-a6c2-4a4a-80fd-8e895cdb5a32",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/ce244e0b-a6c2-4a4a-80fd-8e895cdb5a32?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:51Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476831096,
+          "last_accessed_at": "2024-06-04T04:53:51Z",
+          "last_access_time": 1717476831096,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Distribution Channel",
+        "description": "The channels through which products or services are delivered or sold to the customer.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:51Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "66fd91d7-9b24-493a-9297-92e47867c330",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/66fd91d7-9b24-493a-9297-92e47867c330?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:51Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476831096,
+          "last_accessed_at": "2024-06-04T04:53:51Z",
+          "last_access_time": 1717476831096,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Supply Chain",
+        "description": "The value chain that is related to the procurement and sourcing of goods within or outside of an organization.",
+        "tags": ["level1"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:51Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "95f03d02-b1d8-4a6b-ae17-d8f92a61c7e4",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/95f03d02-b1d8-4a6b-ae17-d8f92a61c7e4?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:51Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476831096,
+          "last_accessed_at": "2024-06-04T04:53:51Z",
+          "last_access_time": 1717476831096,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Warehouse Management",
+        "description": "The process of overseeing the day-to-day operations of a warehouse or distribution center.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:51Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "b2b5ae61-a4f6-43cd-aa8a-8728b1b681c0",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/b2b5ae61-a4f6-43cd-aa8a-8728b1b681c0?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:51Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476831095,
+          "last_accessed_at": "2024-06-04T04:53:51Z",
+          "last_access_time": 1717476831095,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Audit",
+        "description": "The assessment of information and business controls within the organization to make sure their accuracy.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:51Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "d158a46a-74a7-4d3c-8b12-2931ea2864cf",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/d158a46a-74a7-4d3c-8b12-2931ea2864cf?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:51Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476831096,
+          "last_accessed_at": "2024-06-04T04:53:51Z",
+          "last_access_time": 1717476831096,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Marketing",
+        "description": "The promotion and communication of the organizations product or services to a target audience.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:51Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "537f4a04-977f-4e64-a8ba-105f2bf72f9d",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/537f4a04-977f-4e64-a8ba-105f2bf72f9d?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:51Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476831096,
+          "last_accessed_at": "2024-06-04T04:53:51Z",
+          "last_access_time": 1717476831096,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Cybersecurity",
+        "description": "The practice of protecting hardware and software from various forms of threats that include unauthorized access, data breaches, and other malicious activities.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:51Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "55476739-0678-4ad8-b6cf-e51b101060c8",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/55476739-0678-4ad8-b6cf-e51b101060c8?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:51Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476831096,
+          "last_accessed_at": "2024-06-04T04:53:51Z",
+          "last_access_time": 1717476831096,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Procurement",
+        "description": "The purchasing of goods and services for the ongoing operations of the organization.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:51Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "781d59dd-5769-44a7-b99c-373d26f1ab05",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/781d59dd-5769-44a7-b99c-373d26f1ab05?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:51Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476831096,
+          "last_accessed_at": "2024-06-04T04:53:51Z",
+          "last_access_time": 1717476831096,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Regulatory Reporting",
+        "description": "The information that supports data and reports in relation to national and international guidelines and measures.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:51Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "b6df1d34-c735-4818-a73e-6aa35153a4c0",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/b6df1d34-c735-4818-a73e-6aa35153a4c0?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:51Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476831096,
+          "last_accessed_at": "2024-06-04T04:53:51Z",
+          "last_access_time": 1717476831096,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Sales",
+        "description": "The activities that are involved in the generation of revenue for the organization from the exchange of goods or services for monetary compensation.",
+        "tags": ["level1"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:51Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "bd50f570-7955-4d19-9438-f82ea8dfb609",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/bd50f570-7955-4d19-9438-f82ea8dfb609?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:51Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476831095,
+          "last_accessed_at": "2024-06-04T04:53:51Z",
+          "last_access_time": 1717476831095,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Sustainability",
+        "description": "The organizations commitment to make sure sustainable economic development for the benefit of society and the environment.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:51Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "4d93f828-0050-465e-8406-359f122b9da9",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/4d93f828-0050-465e-8406-359f122b9da9?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:51Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476831096,
+          "last_accessed_at": "2024-06-04T04:53:51Z",
+          "last_access_time": 1717476831096,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Compliance",
+        "description": "The compliance with guidelines, regulations, and laws relevant to the organizations industry and operational jurisdiction.",
+        "tags": ["level1"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:51Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "e6734d1f-a91f-4b34-8689-6717dc26246b",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/e6734d1f-a91f-4b34-8689-6717dc26246b?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:51Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476831096,
+          "last_accessed_at": "2024-06-04T04:53:51Z",
+          "last_access_time": 1717476831096,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Legal",
+        "description": "The activities to support and to make sure that the organization operates within the law and resolves any legal disputes with other parties.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:51Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "87ce73d5-3ed3-4e0f-a8c9-760b5476c35c",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/87ce73d5-3ed3-4e0f-a8c9-760b5476c35c?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:51Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476831096,
+          "last_accessed_at": "2024-06-04T04:53:51Z",
+          "last_access_time": 1717476831096,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Campaign Management",
+        "description": "The planning and execution of sales campaigns to attract and retain customers.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:51Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "ded1c48d-080c-4a8c-8498-a472f02d3df1",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/ded1c48d-080c-4a8c-8498-a472f02d3df1?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:51Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476831096,
+          "last_accessed_at": "2024-06-04T04:53:51Z",
+          "last_access_time": 1717476831096,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Risk Management",
+        "description": "The process of identifying, evaluating, monitoring, managing, and mitigating potential risks that affect the organization.",
+        "tags": ["level1"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:51Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "8f077b77-a4a1-45dc-a728-07afdc16888a",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/8f077b77-a4a1-45dc-a728-07afdc16888a?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:51Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476831096,
+          "last_accessed_at": "2024-06-04T04:53:51Z",
+          "last_access_time": 1717476831096,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Maintenance",
+        "description": "The activities of keeping a product in proper operating condition.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:51Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "f5badc6a-b517-4ed9-bfe0-f20261b67910",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/f5badc6a-b517-4ed9-bfe0-f20261b67910?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:51Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476831096,
+          "last_accessed_at": "2024-06-04T04:53:51Z",
+          "last_access_time": 1717476831096,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Data Privacy",
+        "description": "The process of safeguarding a person's privacy rights in the collection, processing, accessing, and storage of their data.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:51Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "94393f70-1fd2-44e1-a5c6-6ab894cf2c16",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/94393f70-1fd2-44e1-a5c6-6ab894cf2c16?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:50Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476830317,
+          "last_accessed_at": "2024-06-04T04:53:50Z",
+          "last_access_time": 1717476830317,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Download",
+        "description": "Allow consumers to download data files",
+        "asset_type": "ibm_data_product_delivery_method",
+        "origin_country": "us",
+        "resource_key": "data-product-hub/delivery-method/download",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:50Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_delivery_method"],
+        "asset_id": "96b112c8-6ddd-4a5e-86f1-01ab1771c21c",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/96b112c8-6ddd-4a5e-86f1-01ab1771c21c?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:50Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476830736,
+          "last_accessed_at": "2024-06-04T04:53:50Z",
+          "last_access_time": 1717476830736,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Customer Management",
+        "description": "The process of managing and maintaining customer relationships with the organization.",
+        "tags": ["level1"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:50Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "7fd97147-37ab-47b0-a193-29bfe51d8710",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/7fd97147-37ab-47b0-a193-29bfe51d8710?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:50Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476830078,
+          "last_accessed_at": "2024-06-04T04:53:50Z",
+          "last_access_time": 1717476830078,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Download Data Extract",
+        "description": "Allow consumers to download a data extract",
+        "asset_type": "ibm_data_product_delivery_method",
+        "origin_country": "us",
+        "resource_key": "data-product-hub/delivery-method/data-extract",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:50Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_delivery_method"],
+        "asset_id": "55a2b7f4-6270-4b6d-8624-f4dfc21dae9a",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/55a2b7f4-6270-4b6d-8624-f4dfc21dae9a?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:50Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476830736,
+          "last_accessed_at": "2024-06-04T04:53:50Z",
+          "last_access_time": 1717476830736,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Employee Management",
+        "description": "The activities that are involved in managing the organizations workforce to achieve the goals of the organization.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:50Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "293a2524-246f-45ab-a774-5b8bdb188cb7",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/293a2524-246f-45ab-a774-5b8bdb188cb7?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:50Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476830736,
+          "last_accessed_at": "2024-06-04T04:53:50Z",
+          "last_access_time": 1717476830736,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Research and Engineering",
+        "description": "The acquisition of detailed information of all the areas of business that uses such information to design its business to meet specific goals.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:50Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "d361510d-a412-44b4-900d-660cfedfb397",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/d361510d-a412-44b4-900d-660cfedfb397?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:50Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476830736,
+          "last_accessed_at": "2024-06-04T04:53:50Z",
+          "last_access_time": 1717476830736,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Planning and Budgeting",
+        "description": "The process of setting business goals for a specified time frame and allocating financial resources to achieve those goals.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:50Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "5d942483-52b7-4522-9f05-05f38fe999f9",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/5d942483-52b7-4522-9f05-05f38fe999f9?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:50Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476830736,
+          "last_accessed_at": "2024-06-04T04:53:50Z",
+          "last_access_time": 1717476830736,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Strategy and Development",
+        "description": "The process of setting strategic goals and planning the future direction of the organization.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:50Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "97b4e603-ea37-4e93-8027-8d8d612fb7b2",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/97b4e603-ea37-4e93-8027-8d8d612fb7b2?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:50Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476830736,
+          "last_accessed_at": "2024-06-04T04:53:50Z",
+          "last_access_time": 1717476830736,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Brand Management",
+        "description": "The activities of the organization to manage the perception and reputation of the brand.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:50Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "44042471-8415-4b9e-9e3a-e829b0d2a201",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/44042471-8415-4b9e-9e3a-e829b0d2a201?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:50Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476830736,
+          "last_accessed_at": "2024-06-04T04:53:50Z",
+          "last_access_time": 1717476830736,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Corporate Affairs",
+        "description": "The organizations relationship with external stakeholders such as the public, government, and media.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:50Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "40f4bede-323c-4fbd-b2ff-711b0989b4ad",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/40f4bede-323c-4fbd-b2ff-711b0989b4ad?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:50Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476830736,
+          "last_accessed_at": "2024-06-04T04:53:50Z",
+          "last_access_time": 1717476830736,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Operations",
+        "description": "The day-to-day processes and activities within the organization to deliver the products and services.",
+        "tags": ["level1"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:50Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "8976a571-5531-437b-b328-fe74970c566f",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/8976a571-5531-437b-b328-fe74970c566f?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:50Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476830736,
+          "last_accessed_at": "2024-06-04T04:53:50Z",
+          "last_access_time": 1717476830736,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Quality Assurance",
+        "description": "The activities and processes within the organization to assess the quality of a product or service.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:50Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "13e896ed-d573-442d-aa63-b9292e4e7cb3",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/13e896ed-d573-442d-aa63-b9292e4e7cb3?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:50Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476830736,
+          "last_accessed_at": "2024-06-04T04:53:50Z",
+          "last_access_time": 1717476830736,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Customer Service",
+        "description": "The support and assistance that is provided by the organization to its customers.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:50Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "5396e085-5648-47fa-af41-e82542911447",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/5396e085-5648-47fa-af41-e82542911447?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:50Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476830489,
+          "last_accessed_at": "2024-06-04T04:53:50Z",
+          "last_access_time": 1717476830489,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Use Flight service",
+        "description": "Allow consumers to connect an RPC Flight Client",
+        "asset_type": "ibm_data_product_delivery_method",
+        "origin_country": "us",
+        "resource_key": "data_product_hub/delivery_method/flight",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:50Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_delivery_method"],
+        "asset_id": "6550e69b-5b75-488d-b52e-de0589304d79",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/6550e69b-5b75-488d-b52e-de0589304d79?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:50Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476830735,
+          "last_accessed_at": "2024-06-04T04:53:50Z",
+          "last_access_time": 1717476830735,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Investment Management",
+        "description": "The management of financial assets and investment portfolios to optimize returns and manage risk.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:50Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "bcea9b48-a73b-4447-8025-13e370823b5b",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/bcea9b48-a73b-4447-8025-13e370823b5b?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:50Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476830736,
+          "last_accessed_at": "2024-06-04T04:53:50Z",
+          "last_access_time": 1717476830736,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Financial Reporting",
+        "description": "The reporting of financial information to various stakeholders to disclose the financial position of the organization.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:50Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "db5fa317-d6cc-4ba8-8384-8c775598df1d",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/db5fa317-d6cc-4ba8-8384-8c775598df1d?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:50Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476830736,
+          "last_accessed_at": "2024-06-04T04:53:50Z",
+          "last_access_time": 1717476830736,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Customer Relationship",
+        "description": "The relationship between the customer and the organization to build, maintain, and enhance a positive relationship with the goal of a long-term successful engagement.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:50Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "aca466bd-f871-4df9-84a9-ed9157338cfe",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/aca466bd-f871-4df9-84a9-ed9157338cfe?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:50Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476830736,
+          "last_accessed_at": "2024-06-04T04:53:50Z",
+          "last_access_time": 1717476830736,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Human Resources",
+        "description": "The administration of the organizations employees.",
+        "tags": ["level1"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:50Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "39287146-8fd6-4667-b63a-a26be2a4058b",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/39287146-8fd6-4667-b63a-a26be2a4058b?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:50Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476830736,
+          "last_accessed_at": "2024-06-04T04:53:50Z",
+          "last_access_time": 1717476830736,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Education and Training",
+        "description": "The development of knowledge and skills through methods such as training and formal learning.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:50Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "c44b07d5-6f4a-4e17-942f-b219be591325",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/c44b07d5-6f4a-4e17-942f-b219be591325?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:50Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476830736,
+          "last_accessed_at": "2024-06-04T04:53:50Z",
+          "last_access_time": 1717476830736,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Facilities Management",
+        "description": "The management of facilities within the organization such as buildings and equipment to make sure that they are running effectively and efficiently.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:50Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "6c073b01-286b-4bfc-bdc4-51ddbe212a0a",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/6c073b01-286b-4bfc-bdc4-51ddbe212a0a?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:50Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476830736,
+          "last_accessed_at": "2024-06-04T04:53:50Z",
+          "last_access_time": 1717476830736,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Business Management",
+        "description": "The process of managing the activities of an organization to achieve its goals. ",
+        "tags": ["level1"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:50Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "456cff52-be49-48dc-baad-df2a6b349650",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/456cff52-be49-48dc-baad-df2a6b349650?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:50Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476830736,
+          "last_accessed_at": "2024-06-04T04:53:50Z",
+          "last_access_time": 1717476830736,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Billing and Collections",
+        "description": "The recording of all billing and payment information, maintaining up-to-date customer accounts, generating financial reports and the collection of unpaid bills from customers.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:50Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "3bf6e075-7315-4ca2-a50a-79284c416643",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/3bf6e075-7315-4ca2-a50a-79284c416643?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:50Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476830736,
+          "last_accessed_at": "2024-06-04T04:53:50Z",
+          "last_access_time": 1717476830736,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Information Technology",
+        "description": "The activities that make sure the ongoing functions and safety of the organizations technology infrastructure and software.",
+        "tags": ["level2"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:50Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "5fc1c402-ece2-48c0-ae77-c573cd595e97",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/5fc1c402-ece2-48c0-ae77-c573cd595e97?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:50Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476830735,
+          "last_accessed_at": "2024-06-04T04:53:50Z",
+          "last_access_time": 1717476830735,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Accounting and Finance",
+        "description": "The financial management and financial control activities of the organization.",
+        "tags": ["level1"],
+        "asset_type": "ibm_data_product_domain",
+        "origin_country": "us",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:50Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_domain"],
+        "asset_id": "6f86d52f-e3c0-4338-99f3-a76b0c7bd9fb",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/6f86d52f-e3c0-4338-99f3-a76b0c7bd9fb?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:53:49Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476829849,
+          "last_accessed_at": "2024-06-04T04:53:49Z",
+          "last_access_time": 1717476829849,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Open URL",
+        "description": "Enable access to data consumers directly via URL",
+        "asset_type": "ibm_data_product_delivery_method",
+        "origin_country": "us",
+        "resource_key": "data-product-hub/delivery-method/url",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:49Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_delivery_method"],
+        "asset_id": "b89b93f3-e8a8-4494-bc3c-b4c5c8895541",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/b89b93f3-e8a8-4494-bc3c-b4c5c8895541?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    },
+    {
+      "metadata": {
+        "usage": {
+          "last_updated_at": "2024-06-04T04:54:22Z",
+          "last_updater_id": "IBMid-270006W48N",
+          "last_update_time": 1717476862522,
+          "last_accessed_at": "2024-06-04T04:54:22Z",
+          "last_access_time": 1717476862522,
+          "last_accessor_id": "IBMid-270006W48N",
+          "access_count": 0
+        },
+        "rov": {
+          "mode": 0,
+          "collaborator_ids": {},
+          "member_roles": {
+            "IBMid-270006W48N": {
+              "user_iam_id": "IBMid-270006W48N",
+              "roles": ["OWNER"]
+            }
+          }
+        },
+        "name": "Initialization status",
+        "description": "System asset tracking the status of configuration intialization",
+        "asset_type": "ibm_data_product_init_status",
+        "origin_country": "us",
+        "resource_key": "ibm_data_product_init_status_resource_key",
+        "rating": 0,
+        "total_ratings": 0,
+        "catalog_id": "2e79006e-12d4-4aac-b01c-0cce610281ab",
+        "created": 0,
+        "created_at": "2024-06-04T04:53:49Z",
+        "owner_id": "IBMid-270006W48N",
+        "size": 0,
+        "version": 0,
+        "asset_state": "available",
+        "asset_attributes": ["ibm_data_product_init_status"],
+        "asset_id": "df1929d2-db5a-497c-af6a-5c122d26c439",
+        "asset_category": "SYSTEM",
+        "creator_id": "IBMid-270006W48N"
+      },
+      "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/assets/df1929d2-db5a-497c-af6a-5c122d26c439?catalog_id=2e79006e-12d4-4aac-b01c-0cce610281ab"
+    }
+  ]
+}

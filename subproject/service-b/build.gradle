@@ -1,0 +1,52 @@
+apply plugin: 'war'
+apply plugin: 'liberty'
+
+def projectName = 'service-b'
+group = 'com.ibm.app'
+version = '1.0-SNAPSHOT'
+
+description = "MicroProfile Starter example"
+
+sourceCompatibility = JavaVersion.VERSION_11
+targetCompatibility = JavaVersion.VERSION_11
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+war {
+    archiveFileName = projectName + '.war'
+}
+
+// configure liberty-gradle-plugin
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'io.openliberty.tools:liberty-gradle-plugin:3.3.1'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    providedCompile 'org.eclipse.microprofile:microprofile:5.0'
+
+    compileOnly 'jakarta.servlet:jakarta.servlet-api:6.0.0'
+
+    implementation 'jakarta.ws.rs:jakarta.ws.rs-api:3.1.0'
+
+}
+
+ext  {
+    liberty.server.var.'default.http.port' = '9081'
+    liberty.server.var.'project.name' = projectName
+    liberty.server.var.'app.context.root' = '/'
+
+    liberty.server.var.'jwt.issuer' = 'https://server.example.com'
+
+}
+

@@ -1,0 +1,74 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kg-graph-export
+spec:
+  replicas: 1
+  strategy:
+    rollingUpgrade:
+      maxSurge: 1
+      maxUnavailable: 1
+  selector:
+    matchLabels:
+      app: kg-graph-export
+  template:
+    metadata:
+      labels:
+        app: kg-graph-export
+    spec:
+      containers:
+        - name: kg-graph-export
+          image: image-registry.openshift-image-registry.svc:5000/wkc/kg-graph-export:latest
+          imagePullPolicy: Always
+          command: [ "/bin/bash", "-c", "--" ]
+          args: [ "while true; do sleep 30; done;" ]
+          resources:
+            requests:
+              cpu: 2
+              memory: 2048Mi
+            limits:
+              cpu: 2
+              memory: 2048Mi
+          env:
+            - name: JAVA_HOME
+              value: /usr/lib/jvm/jre
+            - name: FDB_TLS_CERTIFICATE_FILE
+              value: /secrets/fdb/tls.crt
+            - name: FDB_TLS_KEY_FILE
+              value: /secrets/fdb/tls.key
+            - name: FDB_TLS_CA_FILE
+              value: /secrets/fdb/ca.crt
+          securityContext:
+            # runAsNonRoot: true
+            runAsUser: 0
+          volumeMounts:
+            - mountPath: /etc/foundationdb
+              name: fdb-config-directory
+            - mountPath: /secrets/fdb
+              name: fdb-certs
+      volumes:
+        - configMap:
+            defaultMode: 420
+            name: wdp-kg-ingestion-service-config
+          name: config
+        - configMap:
+            defaultMode: 420
+            items:
+            - key: cluster-file
+              path: fdb.cluster
+            name: wkc-foundationdb-cluster-config
+          name: fdb-config-directory
+        - name: fdb-certs
+          projected:
+            defaultMode: 420
+            sources:
+            - secret:
+                items:
+                - key: ca.crt
+                  path: ca.crt
+                - key: tls.crt
+                  path: tls.crt
+                - key: tls.key
+                  path: tls.key
+                name: internal-tls
+                optional: true

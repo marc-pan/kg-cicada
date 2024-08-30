@@ -1,0 +1,39 @@
+# sink.yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    app: rmq-sink
+  name: rmq-sink
+spec:
+  containers:
+  - command:
+    - bash
+    - -c
+    - |
+      pip3 install pika
+      python3 /root/scripts/rmq_receive.py
+    env:
+      - name: RMQ_USER
+        value: "admin"
+      - name: RMQ_PASS
+        value: "Ba2tenslfivFx9pBClcDksEd"
+      - name: RMQ_SVC
+        value: "rabbitmq-ha.wkc.svc"
+      - name: RMQ_VHOST
+        value: /
+      - name: PYTHONUNBUFFERED
+        value: "1"
+    image: python:3.10
+    name: rmq-sink
+    resources:
+      requests:
+        cpu: 100m
+        memory: 200Mi
+    volumeMounts:
+    - mountPath: /root/scripts
+      name: script
+  volumes:
+  - name: script
+    configMap:
+      name: sink

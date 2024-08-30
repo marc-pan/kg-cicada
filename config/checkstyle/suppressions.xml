@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE suppressions PUBLIC
+   "-//Puppy Crawl//DTD Suppressions 1.1//EN"
+   "http://www.puppycrawl.com/dtds/suppressions_1_1.dtd">
+
+<suppressions>
+   <!-- allow tests to
+      a) declare import static org.junit.Assert.*
+      b) have long methods with long lines
+      c) catch Throwables
+   -->
+   <suppress files=".*Test\.java|[\\/]bvt[\\/]|[\\/]test[\\/]" checks="AvoidStarImport|JavaNCSS|LineLength|CyclomaticComplexity|IllegalCatch|BooleanExpressionComplexity"/>
+   
+</suppressions>

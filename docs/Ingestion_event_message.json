@@ -1,0 +1,18 @@
+{
+  "term": [
+    {
+      "process_type": "CREATE_UPDATE",
+      "vertex_id": 573468904,
+      "id": "8012982a-7f35-4a6e-9bd7-5ed215404a88",
+      "name": "marc_child",
+      "artifact_type": "TERM"
+    },
+    {
+      "process_type": "CREATE_UPDATE",
+      "vertex_id": 614449232,
+      "id": "178b1f24-9f93-4d12-85be-91e08043381a",
+      "name": "marc_parent",
+      "artifact_type": "TERM"
+    }
+  ]
+}

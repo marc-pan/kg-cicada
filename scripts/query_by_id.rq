@@ -1,0 +1,14 @@
+PREFIX wkc: <https://www.ibm.com/cloud/watson-knowledge-catalog/wkc-ontology#>
+SELECT DISTINCT ?artifact_id ?equivalent_artifact_ids ?child_artifact_ids ?parent_artifact_ids
+                ?grandchild_artifact_ids ?grandparent_artifact_ids ?directly_related_artifact_ids ?loosely_related_artifact_ids
+WHERE
+{
+    ?artifact_id wkc:id "7f5cf2d1-fcbd-4ef7-8d3b-da67f2b65f3b" .
+    OPTIONAL { ?artifact_id wkc:synonym ?equivalent_artifact_ids . }
+    OPTIONAL { ?child_artifact_ids wkc:is_a_type_of ?artifact_id . }
+    OPTIONAL { ?grandchild_artifact_ids wkc:is_a_type_of ?child_artifact_ids . }
+    OPTIONAL { ?parent_artifact_ids wkc:has_type ?artifact_id . }
+    OPTIONAL { ?grandparent_artifact_ids wkc:has_type ?parent_artifact_ids . }
+    OPTIONAL { ?directly_related_artifact_ids wkc:related ?artifact_id . }
+    OPTIONAL { ?loosely_related_artifact_ids wkc:related ?directly_related_artifact_ids . }
+}

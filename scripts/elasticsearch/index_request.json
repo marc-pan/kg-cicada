@@ -1,0 +1,95 @@
+{
+  "requests": [
+    {
+      "operation": "INDEX",
+      "provider_type_id": "test_bulk_index",
+      "request": {
+        "artifact_id": "artifact1",
+        "last_updated_at": 1,
+        "tenant_id": "X",
+        "payload": {
+          "metadata": {
+            "modified_on": "2020-02-11T11:32:33.087Z",
+            "artifact_type": "data_asset",
+            "name": "annual_sales_data.csv",
+            "modified_by": "John Doe",
+            "description": "Annual sales data.",
+            "steward_ids": [],
+            "tags": ["department1"]
+          },
+          "entity": {
+            "assets": {
+              "catalog_id": "catalog_1",
+              "project_id": "project_1",
+              "column_names": [
+                "Sales Representative",
+                "Email",
+                "Location",
+                "Region",
+                "Customer",
+                "Order Date",
+                "Item",
+                "Quantity",
+                "Price",
+                "Total Sales Amount"
+              ],
+              "column_terms": [
+                "Seller",
+                "Buyer",
+                "Contact Information",
+                "Units",
+                "Unit Price",
+                "Revenue",
+                "Province",
+                "Purchase Date"
+              ],
+              "connection_paths": ["path/path1"],
+              "column_data_class_names": [
+                "Email Address",
+                "Last Name",
+                "Date",
+                "City",
+                "Canada Province Name"
+              ],
+              "column_tags": ["$", "fixed", "vary"]
+            }
+          }
+        }
+      }
+    },
+    {
+      "operation": "INDEX",
+      "provider_type_id": "test_bulk_index",
+      "request": {
+        "artifact_id": "artifact3",
+        "last_updated_at": 1,
+        "tenant_id": "X",
+        "payload": {
+          "metadata": {
+            "modified_on": "2020-02-11T11:32:33.087Z",
+            "artifact_type": "data_asset_column",
+            "name": "Email",
+            "modified_by": "John Doe",
+            "terms": "Customer Information",
+            "description": "Email address of customer",
+            "tags": ["fixed"]
+          },
+          "entity": {
+            "assets": {
+              "catalog_id": "catalog_1",
+              "project_id": "project_1",
+              "metadata_enrichment_area_id": "me_area_1",
+              "connection_paths": ["path/path1"],
+              "asset_id": "da1-790fc-a4dd-4e61-95e6-a828f59364fb"
+            },
+            "data_asset_column": {
+              "data_class_name": "Email Address",
+              "data_quality_score": 90,
+              "metadata_enrichment_review_date": "2020-02-15"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

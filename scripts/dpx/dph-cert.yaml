@@ -1,0 +1,26 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: dpx-ca-tls
+  namespace: dpx
+spec:
+  secretName: external-tls-secret
+  issuerRef:
+    name: dpx-custom-issuer
+    kind: Issuer
+  dnsNames:
+  - '*.dpx'
+  - '*.dpx.svc'
+  - '*.dpx.svc.cluster.local'
+  - zen-ca-cert.zen
+  - zen-ca-cert.zen.svc
+  - internal-nginx-svc
+  - '*.svc.cluster.local'
+  - api-svc
+  - '*.api'
+  - ibm-nginx-svc
+  - localhost
+  - dsxl-api
+  - '*.apps.mj1001.cp.fyre.ibm.com'
+  duration: 2160h0m0s
+  renewBefore: 720h0m0s

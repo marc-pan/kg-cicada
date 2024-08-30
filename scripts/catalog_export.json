@@ -1,0 +1,34 @@
+{
+    "access_token": "dummy_token",
+    "actor": {
+        "display_name": "1000330999",
+        "iam_id": "1000330999"
+    },
+    "details": {
+        "all_assets": true,
+        "assets": {},
+        "catalog": {
+            "entity": {
+                "auto_profiling": false,
+                "bss_account_id": "999",
+                "capacity_limit": 0,
+                "description": "a new catalog",
+                "generator": "test@cn.ibm.com",
+                "is_governed": false,
+                "name": "Marc Catalog"
+            },
+            "metadata": {
+                "create_time": "2023-03-13T05:37:02Z",
+                "creator_id": "1000330999",
+                "guid": "4e791465-6e36-4698-9553-5d73c4120ec0",
+                "url": "/v2/catalogs/4e791465-6e36-4698-9553-5d73c4120ec0"
+            }
+        },
+        "catalog_id": "4e791465-6e36-4698-9553-5d73c4120ec0",
+        "export_name": "catalog-export-dab97066-9a3f-4961-9b65-463abff3b9a1",
+        "skip_notification": true
+    },
+    "published": "2023-03-13T10:24:37.821Z",
+    "task_id": "dab97066-9a3f-4961-9b65-463abff3b9a1",
+    "type": "export"
+}

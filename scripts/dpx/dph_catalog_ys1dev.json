@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "guid": "445b2698-563e-4daa-827b-fe4ce99916e9",
+    "url": "https://api.dataplatform.dev.cloud.ibm.com/v2/catalogs/445b2698-563e-4daa-827b-fe4ce99916e9",
+    "creator_id": "IBMid-270006W48N",
+    "create_time": "2024-02-22T13:07:54Z",
+    "update_time": "2024-02-22T13:08:04Z"
+  },
+  "entity": {
+    "name": "Default Data Product Catalog",
+    "generator": "data_product",
+    "bss_account_id": "9d9644eeac7895572da0f61e56d40848",
+    "capacity_limit": 0,
+    "is_governed": false,
+    "auto_profiling": false,
+    "saml_instance_name": "IBM w3id",
+    "uid": "ibm-default-hub",
+    "subtype": "ibm_data_product_catalog"
+  },
+  "href": "https://api.dataplatform.dev.cloud.ibm.com/v2/catalogs/445b2698-563e-4daa-827b-fe4ce99916e9"
+}

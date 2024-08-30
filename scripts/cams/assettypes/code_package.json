@@ -1,0 +1,25 @@
+{
+  "description": "Code Package",
+  "fields": [
+    {
+      "key": "name",
+      "type": "string",
+      "facet": false,
+      "is_array": false,
+      "is_searchable_across_types": false
+    }
+  ],
+  "relationships": [],
+  "localized_metadata_attributes": {
+    "name": {
+      "default": "Code package",
+      "en": "Code package"
+    }
+  },
+  "global_search_searchable": [],
+  "attribute_only": false,
+  "is_column_custom_attribute": false,
+  "version": 1,
+  "name": "code_package",
+  "allow_decorators": true
+}

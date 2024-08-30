@@ -1,0 +1,25 @@
+{
+  "description": "The data_rule asset type.",
+  "fields": [
+    {
+      "key": "name",
+      "type": "String",
+      "facet": false,
+      "is_array": false,
+      "is_searchable_across_types": false
+    }
+  ],
+  "relationships": [],
+  "localized_metadata_attributes": {
+    "name": {
+      "default": "Data quality rule",
+      "en": "Data quality rule"
+    }
+  },
+  "global_search_searchable": [],
+  "attribute_only": false,
+  "is_column_custom_attribute": false,
+  "version": 1,
+  "name": "data_rule",
+  "allow_decorators": true
+}

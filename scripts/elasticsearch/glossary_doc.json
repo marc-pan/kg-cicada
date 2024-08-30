@@ -1,0 +1,140 @@
+[
+  {
+    "_index": "wkc",
+    "_id": "glossary_2c191aa4-927b-4638-8f7b-3d40a74766ea",
+    "_score": null,
+    "_source": {
+      "last_updated_at": 1701104603841,
+      "metadata": {
+        "name": "oneMillionCategory",
+        "description": "Root category for one million values RDS test data",
+        "tags": [],
+        "modified_by": "1000330999",
+        "modified_on": "2023-11-27T17:03:16.108Z",
+        "state": "PUBLISHED",
+        "artifact_type": "category",
+        "steward_ids": [],
+        "terms": [],
+        "term_global_ids": [],
+        "classifications": [],
+        "classification_global_ids": []
+      },
+      "entity": {
+        "artifacts": {
+          "artifact_id": "2c191aa4-927b-4638-8f7b-3d40a74766ea",
+          "version_id": "acc5e359-eeef-4e1f-8279-a359ff0e747c_0",
+          "global_id": "41eb8491-2ab1-4368-a52c-9390fd92f3f4_2c191aa4-927b-4638-8f7b-3d40a74766ea"
+        }
+      },
+      "categories": {
+        "last_updated_at": 1701104603838,
+        "secondary_category_ids": [],
+        "secondary_category_global_ids": [],
+        "secondary_category_names": []
+      },
+      "artifact_id": "2c191aa4-927b-4638-8f7b-3d40a74766ea",
+      "provider_type_id": "glossary",
+      "tenant_id": "999"
+    },
+    "sort": [1701104603841]
+  },
+  {
+    "_index": "wkc",
+    "_id": "glossary_999_28b2bc65-4f98-4845-8971-3037a259febd_33faf7a5-0e02-5f29-8f04-1f0dd8365e33",
+    "_score": null,
+    "_source": {
+      "custom_columns": [],
+      "last_updated_at": 1701174184170,
+      "metadata": {
+        "name": "CODE-ME",
+        "description": "US",
+        "tags": [],
+        "modified_by": null,
+        "modified_on": null,
+        "created_on": null,
+        "state": "DRAFT",
+        "artifact_type": "reference_data_value",
+        "steward_ids": [],
+        "steward_group_ids": [],
+        "terms": [],
+        "term_global_ids": [],
+        "classifications": [],
+        "classification_global_ids": []
+      },
+      "entity": {
+        "ref_data_value": {
+          "ref_data_set_artifact_id": "3a8209ac-90d8-417f-8bb8-bae16d9db250",
+          "ref_data_set_version_id": "28b2bc65-4f98-4845-8971-3037a259febd",
+          "parent_ref_data_value_artifact_id": null,
+          "value": "Maine",
+          "value_dbl": null,
+          "value_long": null
+        },
+        "artifacts": {
+          "artifact_id": "33faf7a5-0e02-5f29-8f04-1f0dd8365e33",
+          "version_id": null,
+          "global_id": null,
+          "effective_start_date": null,
+          "effective_end_date": null
+        }
+      },
+      "categories": {
+        "last_updated_at": 1701174184169,
+        "primary_category_id": "e39ada11-8338-3704-90e3-681a71e7c839",
+        "primary_category_global_id": null,
+        "primary_category_name": null,
+        "secondary_category_ids": [],
+        "secondary_category_global_ids": [],
+        "secondary_category_names": []
+      },
+      "custom_attributes": null,
+      "artifact_id": "999_28b2bc65-4f98-4845-8971-3037a259febd_33faf7a5-0e02-5f29-8f04-1f0dd8365e33",
+      "provider_type_id": "glossary",
+      "tenant_id": "999"
+    },
+    "sort": [1701174184170]
+  },
+  {
+    "_index": "wkc",
+    "_id": "glossary_ee87fc03-28f0-44d1-aefa-00d859e291e5",
+    "_score": null,
+    "_source": {
+      "last_updated_at": 1701104605283,
+      "metadata": {
+        "name": "One million RDS",
+        "description": "test description",
+        "tags": [],
+        "modified_by": "1000330999",
+        "modified_on": "2023-11-27T17:03:21.001Z",
+        "state": "PUBLISHED",
+        "artifact_type": "reference_data",
+        "steward_ids": [],
+        "terms": [],
+        "term_global_ids": [],
+        "classifications": [],
+        "classification_global_ids": []
+      },
+      "entity": {
+        "artifacts": {
+          "artifact_id": "ee87fc03-28f0-44d1-aefa-00d859e291e5",
+          "version_id": "9c6efb53-6054-4b99-adc4-395a56217dad_0",
+          "global_id": "41eb8491-2ab1-4368-a52c-9390fd92f3f4_ee87fc03-28f0-44d1-aefa-00d859e291e5",
+          "effective_start_date": "2023-11-27T17:03:21.001Z"
+        }
+      },
+      "categories": {
+        "last_updated_at": 1701104600243,
+        "primary_category_id": "2c191aa4-927b-4638-8f7b-3d40a74766ea",
+        "primary_category_global_id": "41eb8491-2ab1-4368-a52c-9390fd92f3f4_2c191aa4-927b-4638-8f7b-3d40a74766ea",
+        "primary_category_name": "oneMillionCategory",
+        "secondary_category_ids": [],
+        "secondary_category_global_ids": [],
+        "secondary_category_names": []
+      },
+      "artifact_id": "ee87fc03-28f0-44d1-aefa-00d859e291e5",
+      "provider_type_id": "glossary",
+      "tenant_id": "999"
+    },
+    "sort": [1701104605283]
+  }
+]

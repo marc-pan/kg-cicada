@@ -1,0 +1,20 @@
+{
+  "entity": {
+    "auto_profiling": true,
+    "bss_account_id": "999",
+    "capacity_limit": 0,
+    "description": "The governed catalog where data assets are synchronized with the Information assets view.",
+    "generator": "Catalog-OMRS-Synced",
+    "is_governed": true,
+    "name": "Default Catalog"
+  },
+  "metadata": {
+    "create_time": "2023-02-06T11:12:34Z",
+    "creator_id": "1000330999",
+    "guid": "e4b47be8-bc7b-4b91-8e37-b831d0e73410",
+    "url": "/v2/catalogs/e4b47be8-bc7b-4b91-8e37-b831d0e73410"
+  },
+  "is_encrypted": false,
+  "deployment_source": "icp",
+  "version": "1.0.13.cp4d"
+}

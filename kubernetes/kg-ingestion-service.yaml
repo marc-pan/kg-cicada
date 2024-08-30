@@ -1,0 +1,292 @@
+apiVersion: apps/v1
+kind: Deployment
+spec:
+  progressDeadlineSeconds: 600
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      app: wdp-kg-ingestion-service
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      annotations:
+        cloudpakId: eb9998dcc5d24e3eb5b6fb488f750fe2
+        cloudpakInstanceId: aa0ba657-104f-4716-9ae6-8614cef4fcb9
+        cloudpakName: IBM Cloud Pak for Data
+        images: |
+          wdp-kg-ingestion-rest@sha256: fff03c39fa803f1fb1da445c30bf66739de15a3f7dabef52247ea36dc7f1d5d3"
+        productChargedContainers: All
+        productCloudpakRatio: "1:1"
+        productID: eb9998dcc5d24e3eb5b6fb488f750fe2
+        productMetric: VIRTUAL_PROCESSOR_CORE
+        productName: IBM Watson Knowledge Catalog for IBM Cloud Pak for Data
+        productVersion: 4.5.1
+      creationTimestamp: null
+      labels:
+        app: wdp-kg-ingestion-service
+        app.kubernetes.io/instance: 0075-wkc-lite
+        app.kubernetes.io/managed-by: Tiller
+        app.kubernetes.io/name: wdp-kg-ingestion-service
+        chart: wdp-kg-ingestion-service-chart
+        date: date
+        helm.sh/chart: wdp-kg-ingestion-service-chart
+        heritage: Tiller
+        icpdsupport/addOnId: wkc
+        icpdsupport/app: api
+        istier: services
+        release: 0075-wkc-lite
+    spec:
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: kubernetes.io/arch
+                operator: In
+                values:
+                - amd64
+        podAntiAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - podAffinityTerm:
+              labelSelector:
+                matchLabels:
+                  app: wdp-kg-ingestion-service
+              topologyKey: kubernetes.io/hostname
+            weight: 1
+      containers:
+      - env:
+        - name: GATEWAY
+          valueFrom:
+            configMapKeyRef:
+              key: host-url
+              name: wdp-config
+        - name: kg_server_ssl_key_store
+          value: file:/app/cert/lineage.p12
+        - name: kg_token_type
+          value: ICP4D
+        - name: kg_iam_public_keys_url
+          value: $(GATEWAY)/auth/jwtpublic
+        - name: kg_iam_token_url
+          value: KNOXSSO
+        - name: wdp_service_id_credential
+          valueFrom:
+            secretKeyRef:
+              key: service-id-credentials
+              name: wdp-service-id
+        - name: REST_CATALOG_API_URL
+          value: $(GATEWAY)/v2/
+        - name: REST_PROJECT_API_URL
+          value: $(GATEWAY)/v2/
+        - name: REST_DATA_INTEGRATION_API_URL
+          value: $(GATEWAY)/data_intg/v3/
+        - name: REST_ENTITLEMENT_API_URL
+          value: $(GATEWAY)/v2/entitlements
+        - name: kg_liveness_probe_url
+          value: gov/v1/kg/ingestion/management/liveness
+        - name: kg_readiness_probe_url
+          value: gov/v1/kg/ingestion/management/readiness
+        - name: ca_certificate
+          valueFrom:
+            secretKeyRef:
+              key: ca.crt
+              name: internal-tls
+        - name: ca_certificate_decode
+          value: "False"
+        - name: kg_redis_url
+          valueFrom:
+            secretKeyRef:
+              key: redis-url-ssl
+              name: redis-ha
+              optional: true
+        - name: kg_redis_certificate_location
+          value: ca_certificate
+        - name: kg_rabbitmq_url
+          valueFrom:
+            secretKeyRef:
+              key: rabbitmq-url
+              name: rabbitmq-ha
+              optional: true
+        - name: kg_rabbit_certificate_location
+          value: ca_certificate
+        - name: FDB_TLS_CERTIFICATE_FILE
+          value: /secrets/fdb/tls.crt
+        - name: FDB_TLS_KEY_FILE
+          value: /secrets/fdb/tls.key
+        - name: FDB_TLS_CA_FILE
+          value: /secrets/fdb/ca.crt
+        - name: LOG_DIR
+          value: /tmp
+        - name: kg_activity_tracker_enabled
+          value: "True"
+        - name: kg_activity_tracker_url
+          value: https://zen-audit-svc:9890/records
+        - name: kg_activity_tracker_threadpool_size
+          value: "3"
+        - name: kg_activity_tracker_service_crn
+          value: crn:v1:cp4d:private:k8:w/$(NODENAME):n/wkc::service:wdp-kg-ingestion-service
+        - name: kg_activity_tracker_token
+          valueFrom:
+            secretKeyRef:
+              key: token
+              name: zen-service-broker-secret
+              optional: false
+        - name: ENABLE_AUDIT
+          value: "True"
+        - name: AUDIT_SERVICE_URL
+          value: https://zen-audit-svc:9890/records
+        - name: ZEN_SVC_BROKER_SECRET
+          valueFrom:
+            secretKeyRef:
+              key: token
+              name: zen-service-broker-secret
+              optional: false
+        - name: gs_es_augment_enabled
+          value: "True"
+        - name: CONTAINERNAME
+          valueFrom:
+            fieldRef:
+              apiVersion: v1
+              fieldPath: metadata.name
+        - name: NAMESPACE
+          valueFrom:
+            fieldRef:
+              apiVersion: v1
+              fieldPath: metadata.namespace
+        - name: NODENAME
+          valueFrom:
+            fieldRef:
+              apiVersion: v1
+              fieldPath: spec.nodeName
+        - name: SPRING_APPLICATION_JSON
+          value: '{"logging.level.com.ibm.research.ergs":"DEBUG"}'
+        image: cp.icr.io/cp/cpd/wdp-kg-ingestion-rest@sha256:4476967aa4c53a404ecfab3784984288eadddf534238ddd775f04cb134d8fdad
+        imagePullPolicy: IfNotPresent
+        livenessProbe:
+          failureThreshold: 3
+          httpGet:
+            path: gov/v1/kg/ingestion/management/liveness
+            port: 9443
+            scheme: HTTPS
+          initialDelaySeconds: 180
+          periodSeconds: 120
+          successThreshold: 1
+          timeoutSeconds: 15
+        name: wdp-kg-ingestion-service
+        ports:
+        - containerPort: 9443
+          protocol: TCP
+        readinessProbe:
+          failureThreshold: 3
+          httpGet:
+            path: gov/v1/kg/ingestion/management/readiness
+            port: 9443
+            scheme: HTTPS
+          initialDelaySeconds: 120
+          periodSeconds: 60
+          successThreshold: 1
+          timeoutSeconds: 15
+        resources:
+          limits:
+            cpu: "2"
+            memory: 3000Mi
+          requests:
+            cpu: 250m
+            memory: 512Mi
+        securityContext:
+          allowPrivilegeEscalation: false
+          capabilities:
+            drop:
+            - ALL
+          privileged: false
+          readOnlyRootFilesystem: false
+          runAsNonRoot: true
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+        volumeMounts:
+        - mountPath: /etc/foundationdb
+          name: fdb-config-directory
+        - mountPath: /secrets/fdb
+          name: fdb-certs
+        - mountPath: /etc/wdp_certs
+          name: wdp-certs
+          readOnly: true
+        - mountPath: /etc/spring_service_tls
+          name: spring-service-tls
+          readOnly: true
+        - mountPath: /app/logging.properties
+          name: config
+          subPath: logging.properties
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext:
+        runAsNonRoot: true
+      serviceAccount: zen-norbac-sa
+      serviceAccountName: zen-norbac-sa
+      terminationGracePeriodSeconds: 30
+      volumes:
+      - configMap:
+          defaultMode: 420
+          name: wdp-kg-ingestion-service-config
+        name: config
+      - configMap:
+          defaultMode: 420
+          items:
+          - key: cluster-file
+            path: fdb.cluster
+          name: wkc-foundationdb-cluster-config
+        name: fdb-config-directory
+      - name: wdp-certs
+        projected:
+          defaultMode: 420
+          sources:
+          - secret:
+              items:
+              - key: ca.crt
+                path: internal-nginx.cert.pem
+              - key: tls.crt
+                path: tls.crt.pem
+              name: internal-tls
+              optional: true
+      - name: spring-service-tls
+        secret:
+          defaultMode: 420
+          secretName: internal-tls
+      - name: fdb-certs
+        projected:
+          defaultMode: 420
+          sources:
+          - secret:
+              items:
+              - key: ca.crt
+                path: ca.crt
+              - key: tls.crt
+                path: tls.crt
+              - key: tls.key
+                path: tls.key
+              name: internal-tls
+              optional: true
+status:
+  availableReplicas: 1
+  conditions:
+  - lastTransitionTime: "2022-07-11T08:09:10Z"
+    lastUpdateTime: "2022-07-11T08:09:10Z"
+    message: Deployment has minimum availability.
+    reason: MinimumReplicasAvailable
+    status: "True"
+    type: Available
+  - lastTransitionTime: "2022-07-11T08:06:25Z"
+    lastUpdateTime: "2022-07-11T14:51:47Z"
+    message: ReplicaSet "wdp-kg-ingestion-service-7bc55cc56b" has successfully progressed.
+    reason: NewReplicaSetAvailable
+    status: "True"
+    type: Progressing
+  observedGeneration: 3
+  readyReplicas: 1
+  replicas: 1
+  updatedReplicas: 1

@@ -1,0 +1,32 @@
+FROM registry.access.redhat.com/ubi8/ubi
+LABEL com.ibm.neo4j.semantic.search.authors="panxiny@cn.ibm.com"
+
+LABEL name="semantic-search" \
+      vendor="IBM" \
+      version="1.0.0" \
+      release="Oct 08, 2023" \
+      summary="IBM semantic search service" \
+      description="This is a docker image for semantic search."
+
+RUN yum -y update
+
+RUN yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm && \
+    yum install -y https://github.com/apple/foundationdb/releases/download/6.2.23/foundationdb-clients-6.2.23-1.el7.x86_64.rpm && \
+    yum install -y vim jq java-11-openjdk.x86_64 && \
+    yum clean all && \
+    rm -rf /var/cache/yum
+
+ARG KG_USER=kguser
+ARG KG_UID=15585
+RUN groupadd -g ${KG_UID} ${KG_USER} && \
+    useradd -m -s /bin/bash -u $KG_UID -g $KG_UID $KG_USER && \
+    mkdir -p /opt/search && \
+    chown -R ${KG_USER}:${KG_USER} /opt/search
+
+USER $KG_USER
+
+WORKDIR /opt/search
+COPY janusgraph-0.6.0.tar .
+
+RUN tar xvf janusgraph-0.6.0.tar && \
+    rm -f janusgraph-0.6.0.tar

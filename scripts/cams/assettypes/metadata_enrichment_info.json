@@ -1,0 +1,10 @@
+{
+  "fields": [],
+  "relationships": [],
+  "global_search_searchable": [],
+  "attribute_only": true,
+  "is_column_custom_attribute": false,
+  "version": 1,
+  "name": "metadata_enrichment_info",
+  "allow_decorators": false
+}

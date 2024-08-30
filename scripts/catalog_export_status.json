@@ -1,0 +1,15 @@
+{
+  "comments": "This event message comes from queue portal-projects-job-manager",
+  "published": "2023-03-13T15:44:18.775Z",
+  "details": {
+    "catalog_id": "4e791465-6e36-4698-9553-5d73c4120ec0",
+    "status": "export_error",
+    "type": "export",
+    "error": {
+      "message": "[Failed][Request #4080] Encountered unacceptable status code: 500."
+    }
+  },
+  "event": "update",
+  "topic": "v2.async_tasks.8ed8da63-3b7b-44e3-b28a-9988474fa619",
+  "type": "export"
+}

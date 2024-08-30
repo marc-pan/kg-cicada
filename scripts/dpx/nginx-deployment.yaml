@@ -1,0 +1,58 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+      annotations:
+        productName: "IBM Data Product Hub Non-Production"
+        productID: "fe2b26eaa867433e8bf16bb590ca86a6"
+        productVersion: "1.0.0"
+        productMetric: "RESOURCE_UNIT"
+        productChargedContainers: "All"
+
+    spec:
+      containers:
+      - name: nginx-container
+        image: image-registry.openshift-image-registry.svc:5000/dpx/nginx:latest
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+        tty: true
+        stdin: true
+        serviceAccount: default
+        ports:
+        - containerPort: 80
+        env:
+          - name: PRODUCT_NAME
+            valueFrom:
+              fieldRef:
+                apiVersion: v1
+                fieldPath: metadata.annotations['productName']
+          - name: PRODUCT_ID
+            valueFrom:
+              fieldRef:
+                apiVersion: v1
+                fieldPath: metadata.annotations['productID']
+          - name: PRODUCT_VERSION
+            valueFrom:
+              fieldRef:
+                apiVersion: v1
+                fieldPath: metadata.annotations['productVersion']
+          - name: PRODUCT_METTRIC
+            valueFrom:
+              fieldRef:
+                apiVersion: v1
+                fieldPath: metadata.annotations['productMetric']
+          - name: PRODUCT_CHARGED_CONTAINERS
+            valueFrom:
+              fieldRef:
+                apiVersion: v1
+                fieldPath: metadata.annotations['productChargedContainers']
+      terminationGracePeriodSeconds: 5

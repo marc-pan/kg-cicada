@@ -1,0 +1,11 @@
+[versions]
+mockito = "2.16.0"
+
+[libraries]
+mockito-core = { module = "org.mockito:mockito-core", version.ref = "mockito"}
+
+[bundles]
+
+
+[plugins]
+
