@@ -69,8 +69,10 @@ public class BatchApplication implements CommandLineRunner, ExitCodeGenerator {
                     jobExecution.getStatus().toString()));
             exitCode = 0;
         } else {
-            log.error("{} :Job {} Execution failed {}", ServiceCodes.DPXMTR0007, jobToExecute.getName(),
+            if (jobExecution != null) 
+                log.error("{} :Job {} Execution failed {}", ServiceCodes.DPXMTR0007, jobToExecute.getName(),
                     jobExecution.getStatus().toString());
+            
             exitCode = 1;
         }
     }

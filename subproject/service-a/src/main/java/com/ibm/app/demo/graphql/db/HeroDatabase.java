@@ -15,6 +15,7 @@ public class HeroDatabase {
     private final Map<String, SuperHero> allHeroes = new HashMap<>();
     private final Map<String, Team> allTeams = new HashMap<>();
 
+    @SuppressWarnings("unused")
     private void init(@Observes @Initialized(ApplicationScoped.class) Object init) {
 
         try {

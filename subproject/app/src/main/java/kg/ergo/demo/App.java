@@ -11,6 +11,7 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class App {
+    @SuppressWarnings("unused")
     private static final long MIN_INTERNVAL_MILSECONDS = 60000L;
 
     public String getGreeting() {
