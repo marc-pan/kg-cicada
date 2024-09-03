@@ -40,7 +40,7 @@ public class BubbleSort {
         }
     }
 
-    private static void sort(int[] array) {
+    public static void sort(int[] array) {
         bubbleSort(array);
     }
 
