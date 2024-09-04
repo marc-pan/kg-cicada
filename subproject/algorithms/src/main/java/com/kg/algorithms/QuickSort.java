@@ -1,5 +1,5 @@
 package com.kg.algorithms;
 
-public class SelectionSort {
+public class QuickSort {
     
 }
