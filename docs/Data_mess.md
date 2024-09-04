@@ -23,17 +23,17 @@ Official web site: https://beam.apache.org/
 
 #### PDCA model
 - Plan/计划: 定计划，排优先级，资源调配，预判结果
-    - Who will complete what when
-    - Goal, what's resources, what's result
+    - [ ] Who will complete what when
+    - [ ] Goal, what's resources, what's result
 - Do/执行: 执行计划
-    - List effience steps and methods that can complete the plan
-    - Just do it!
+    - [ ] List effience steps and methods that can complete the plan
+    - [ ] Just do it!
 - Check/检查结果: 检查结果
-    - Check every things that are assigned already
+    - [ ] Check every things that are assigned already
 
 - Action/处理: 总结问题，新问题
-    - Success experiences should have a process and reusable
-    - New problem must trasnfer to next iteration
+    - [ ] Success experiences should have a process and reusable
+    - [ ] New problem must trasnfer to next iteration
 
 #### SMART model
 
