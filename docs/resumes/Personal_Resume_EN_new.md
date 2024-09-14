@@ -5,9 +5,9 @@ Name: Xinyu Pan &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &
 Gender: Male &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Email: pxy0592@msn.com  
 
 ### Technical Skills
-**Technical Stack** Microservice, API Key Management, Graph engine, Elasticsearch, RabbitMQ, Hadoop/Spark, DevOps, Kuberenetes/OpenShift, CI/CD, IBM Cloud  
-**Technical Role** Technical team leader, Backend Development, Architecture on feature level  
-**Program Language** Java, JUnit, JanusGraph, SPARQL, Neo4j/Cypher, Python, Operator, Ansible, Helm Chart, Shell, Jenkins, GitHub, git
+**Technical Stack** Microservice, API Key Management, Graph query engine, Elasticsearch, RabbitMQ, Hadoop/Spark, DevOps, Kubernetes/OpenShift, CI/CD, IBM Cloud, GitHub/Git, SonarQube  
+**Technical Role** Technical team leader, Backend Developer, Architecture on feature level  
+**Program Language** Java, JUnit, JanusGraph, SPARQL, Neo4j/Cypher, Python, Operator, Ansible, Helm Chart, Shell, Jenkins, GitHub/Git
 **Soft Skills** English communication, Time management, Risk control, multiple task management, Agile/Scrum, DevOps, SDLC  
 
 ### Project List
