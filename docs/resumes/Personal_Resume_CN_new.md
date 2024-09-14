@@ -46,9 +46,9 @@ Data Product Hub产品是一个从0到1的新型战略性旗舰产品，目标�
 #### IBM高性能分布式集群  
 **发布周期**：2012.01 - 2019.05  
 **研发周期**：传统瀑布模型，3~4个月发布一个主要版本  
-**总结**：领导~10人团队完成每个多个版本发布，主要工作聚焦于功能性设计评估与测试、系统测试、性能测试、重要客户的场景验证测试  
-- 可靠且及时地交付给全球Top10投资类机构使用
-- 带领10人左右规模的测试团队，负责高性能分布式集群产品，包括Spectrum Symphony，Spectrum Conductor，Watson Machine Learning-Accelerator，进行测试和交付工作。与项目经理，研发团队合作主导产品的多个版本发布。
+**总结**：领导~10人测试团队完成多个版本的发布，客户主要是使用产品长达10多年的金融领域投资类银行，比如JP Morgan，Morgan Stanley， 瑞士信贷，花旗银行等等。客户的产品集群规模从几百台到10多万台的规模。
+- 可靠且及时地交付给全客户使用
+- 带领测试团队，负责公司高性能分布式集群产品（Spectrum Symphony，Spectrum Conductor，Watson Machine Learning-Accelerator）进行测试和交付工作。与项目经理，研发团队合作主导产品的多个版本发布。
 - 搭建有效的质量测试流程提高开发团队的工作效率，包括但不至于
   - 明确测试目标和策略
   - 需求分析和测试计划
@@ -67,9 +67,9 @@ Data Product Hub产品是一个从0到1的新型战略性旗舰产品，目标�
   - 培训和知识共享
 
 ### **公司经历**  
-- 国际商业机器（中国）投资有限公司 [2012.04 - 至今]  
-- Platform Computing 有限公司 [ 2004.07 - 2012.03 ]  
-- 北京电力科学研究院科东公司 [2001.07 - 2004.06]  
+- 国际商业机器（中国）投资有限公司 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[2012.04 - 至今]  
+- Platform Computing 有限公司 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[ 2004.07 - 2012.03 ]  
+- 北京电力科学研究院科东公司 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[2001.07 - 2004.06]  
 
 ### **教育背景**  
-东北大学 自动控制系自动化专业 本科
+东北大学 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 自动控制系自动化专业 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 本科
