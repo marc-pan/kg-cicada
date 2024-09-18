@@ -5,7 +5,7 @@
 性别：男  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 邮箱：pxy0592@msn.com  
 
 ### 技能
-**技术栈**：微服务、图查询引擎、ElasticSearch、RabbitMQ、Hadoop/Spark、API密钥管理、DevOps、Kubernetes、OpenShift、CI/CD、IBM Cloud  
+**技术栈**：微服务、图查询引擎、 知识图谱构建、ElasticSearch、RabbitMQ、Hadoop/Spark、API密钥管理、DevOps、Kubernetes、OpenShift、CI/CD、IBM Cloud  
 **技术角色**：团队领导、后端开发、特性级微架构  
 **编程语言**：Java、JUnit、JanusGraph、SPARQL、Neo4j/Cypher、Python、Operator、Ansible、Helm Chart、Shell、Jenkins, GitHub/Git  
 **软技能**：英语沟通、时间管理、风险管理、多任务管理、敏捷/Scrum、DevOps、软件开发生命周期（SDLC） 
