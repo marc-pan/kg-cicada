@@ -7,7 +7,7 @@ Gender: Male &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs
 ### Technical Skills
 **Technical Stack** Microservice, API Key Management, Graph query engine, Elasticsearch, RabbitMQ, Hadoop/Spark, DevOps, Kubernetes/OpenShift, CI/CD, IBM Cloud, GitHub/Git, SonarQube  
 **Technical Role** Technical team leader, Backend Developer, Architecture on feature level  
-**Program Language** Java, JUnit, JanusGraph, SPARQL, Neo4j/Cypher, Python, Operator, Ansible, Helm Chart, Shell, Jenkins, GitHub/Git
+**Program Language** Java, JUnit, JanusGraph, Knowledge Graph, SPARQL, Neo4j/Cypher, Python, Operator, Ansible, Helm Chart, Shell, Jenkins, GitHub/Git
 **Soft Skills** English communication, Time management, Risk control, multiple task management, Agile/Scrum, DevOps, SDLC  
 
 ### Project List
