@@ -33,12 +33,12 @@ repositories {
 }
 
 dependencies {
-    providedCompile 'org.eclipse.microprofile:microprofile:5.0'
-    providedCompile 'jakarta.platform:jakarta.jakartaee-web-api:9.0.0'
+    providedCompile 'org.eclipse.microprofile:microprofile:7.0'
+    providedCompile 'jakarta.platform:jakarta.jakartaee-web-api:10.0.0'
 
-    compileOnly 'jakarta.servlet:jakarta.servlet-api:6.0.0'
+    compileOnly 'jakarta.servlet:jakarta.servlet-api:6.1.0'
 
-    implementation 'io.vertx:vertx-auth-jwt:3.9.5'
+    implementation 'io.vertx:vertx-auth-jwt:4.5.10'
 
     providedCompile 'org.eclipse.microprofile.graphql:microprofile-graphql-api:2.0'
 
