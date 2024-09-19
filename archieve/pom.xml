@@ -14,29 +14,29 @@
   <properties>
     <revision>1.0.9-SNAPSHOT</revision>
     <kg-ergo.version>1.0.113</kg-ergo.version>
-    <spark-core>2.9.3</spark-core>
-    <gson.version>2.8.9</gson.version>
-    <janusgraph.version>0.6.0</janusgraph.version>
-    <json.version>[20230227,)</json.version>
-    <fdb.version>6.2.22</fdb.version>
-    <guava.version>[32.0.0,)</guava.version>
-    <slf4j.version>1.7.36</slf4j.version>
-    <minio.version>8.5.2</minio.version>
-    <redis.version>4.3.1</redis.version>
+    <spark-core>3.5.3</spark-core>
+    <gson.version>2.11.0</gson.version>
+    <janusgraph.version>1.1.0-20240913-070941.4a576f6</janusgraph.version>
+    <json.version>20240303</json.version>
+    <fdb.version>6.3.25</fdb.version>
+    <guava.version>33.3.0-jre</guava.version>
+    <slf4j.version>2.0.16</slf4j.version>
+    <minio.version>8.5.12</minio.version>
+    <redis.version>5.1.5</redis.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <junit.version>5.6.0</junit.version>
-    <maven-enforcer-plugin.version>3.0.0-M3</maven-enforcer-plugin.version>
-    <maven-checkstyle-plugin.version>3.1.0</maven-checkstyle-plugin.version>
-    <checkstyle.version>8.29</checkstyle.version>
-    <checkstyle-rules.version>4.0.1</checkstyle-rules.version>
-    <maven-surefire-plugin.version>3.0.0-M4</maven-surefire-plugin.version>
-    <jacoco-maven-plugin.version>0.8.4</jacoco-maven-plugin.version>
-    <maven-javadoc-plugin.version>3.0.0</maven-javadoc-plugin.version>
-    <coveralls-maven-plugin.version>4.3.0</coveralls-maven-plugin.version>
-    <gitflow.version>1.20.0</gitflow.version>
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
-    <maven.compiler.release>17</maven.compiler.release>
+    <junit.version>5.11.0</junit.version>
+    <maven-enforcer-plugin.version>3.5.0</maven-enforcer-plugin.version>
+    <maven-checkstyle-plugin.version>3.5.0</maven-checkstyle-plugin.version>
+    <checkstyle.version>10.18.18</checkstyle.version>
+    <!-- <checkstyle-rules.version>4.0.1</checkstyle-rules.version> -->
+    <maven-surefire-plugin.version>3.5.0</maven-surefire-plugin.version>
+    <!-- <jacoco-maven-plugin.version>0.8.4</jacoco-maven-plugin.version> -->
+    <maven-javadoc-plugin.version>3.10.0</maven-javadoc-plugin.version>
+    <!-- <coveralls-maven-plugin.version>4.3.0</coveralls-maven-plugin.version> -->
+    <gitflow.version>3.15.0</gitflow.version>
+    <maven.compiler.source>20</maven.compiler.source>
+    <maven.compiler.target>20</maven.compiler.target>
+    <maven.compiler.release>20</maven.compiler.release>
     <!-- JaCoCo thresholds. Increase gradually as you add tests. -->
     <jacoco.unit-tests.limit.instruction-ratio>0%</jacoco.unit-tests.limit.instruction-ratio>
     <jacoco.unit-tests.limit.branch-ratio>0%</jacoco.unit-tests.limit.branch-ratio>
@@ -71,7 +71,7 @@
     </dependency-->
     <dependency>
       <groupId>com.sparkjava</groupId>
-      <artifactId>spark-core</artifactId>
+      <artifactId>spark-core_2.13</artifactId>
       <version>${spark-core}</version>
     </dependency>
     <dependency>
@@ -131,7 +131,7 @@
     <dependency>
 				<groupId>org.awaitility</groupId>
 				<artifactId>awaitility</artifactId>
-				<version>4.1.1</version>
+				<version>4.2.2</version>
     </dependency>
     <dependency>
         <groupId>io.minio</groupId>
@@ -141,7 +141,7 @@
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
-      <version>1.18.30</version>
+      <version>1.18.34</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -216,7 +216,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-shade-plugin</artifactId>
-        <version>3.2.4</version>
+        <version>3.6.0</version>
         <executions>
           <execution>
             <id>shade-my-jar</id>
