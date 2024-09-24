@@ -14,6 +14,7 @@ Gender: Male &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs
 #### IBM Data Product Hub release  
 Data Product Hub is a new flagship product arming to digital asset management in the data mesh, it is built based on open cloud and private cloud, make the data assets can be automatically, intelligently used by any category application, such as model training, data analysis, etc. Currently the product team distributed in North America, China, and Indian. Since 2023 the team spent one half year from the initial prototype design, first MVP until the final 1st release on July, 2024.  
 
+**Team Role**: Team leader, Software Development Engineer
 **Release cycle** 2023.01 - present  
 **Development cycle** Agile + DevOps, two weeks per sprint, 3 or 4 sprints in total
 **Summary** Led a 7 person Indian team, completed the 1st release using one half year and continue the development for several major/minor release
@@ -30,6 +31,7 @@ Data Product Hub is a new flagship product arming to digital asset management in
 #### IBM Global Search Service
 The search service is a common core service built in IBM Knowledge Catalog product to provide the search experience for raw data and governance data for customers using the global unique search bar in browser interface.
 
+**Team Role**: Software Development Engineer
 **Release cycle** 2019.06 - 2022.01
 **Development cycle** Agile, two weeks per sprint, 4 sprints for minor release, 8 sprints for major release
 **Summary** An unique search bar receives the query from customers directly. As a developer in China, collaborate with the team located in NA and Indian working on feature design, coding, unit test, deployment in agile manner. In three half years, delivered multiple release on IBM public cloud and IBM private cloud solution successfully.
@@ -41,6 +43,7 @@ The search service is a common core service built in IBM Knowledge Catalog produ
 - RabbitMQ events optimization in consumer side
   
 #### IBM High-Performance Distributed Computing Cluster
+**Team Role**: Team leader, Software Development Engineer in Test
 **Summary** 
 Spectrum Symphony, Spectrum Conductor, Watson Machine Learning-Accelerating are global famous distributed computing cluster product. They have been used by global Top 10 Financial Industry, such as JP Morgan, Morgan Stanley, CitiGroup, Credit Suisse Group, etc. The cluster scale size is from 100+ nodes to 100000+ nodes.
 **Release cycle** Traditional waterfall model, 3~4 months per major release
