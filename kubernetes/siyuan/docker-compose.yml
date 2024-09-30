@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  main:
+    image: b3log/siyuan
+    command: ['--workspace=/siyuan/workspace/', '--accessAuthCode=aaa123']
+    user: '1000:1000'
+    ports:
+      - 6806:6806
+    volumes:
+      - ./workspace:/siyuan/workspace
+    restart: unless-stopped
+    environment:
+      # A list of time zone identifiers can be found at https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+      - TZ=${TimeZone}
