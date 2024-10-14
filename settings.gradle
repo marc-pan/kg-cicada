@@ -15,4 +15,3 @@ include ':subproject:service-b'
 include ':subproject:batch'
 include ':subproject:algorithms'
 include ':subproject:kafka-getting-started'
-
