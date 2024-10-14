@@ -58,7 +58,7 @@ publishing {
 	publications {
 		mavenPublication(MavenPublication) {
 			// bootJar is the default build task configured by Spring Boot
-            artifact bootJar
+			artifact bootJar
 		}
 	}
 

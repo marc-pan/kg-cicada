@@ -1,5 +1,6 @@
 // subproject/build.gradle
 apply plugin: 'java'
+apply plugin: 'maven-publish'
 
 group 'com.kg.algorithms'
 version '1.0-SNAPSHOT'
@@ -27,4 +28,25 @@ tasks.named('test', Test) {
     testLogging {
 		events "passed", "skipped", "failed"
 	}
+}
+
+publishing {
+    publications {
+        mavenPublication(MavenPublication) {
+            from components.java
+            groupId 'kg.ergo.demo'
+            artifactId 'algorithm'
+        }
+    }
+
+    repositories {
+        maven {
+            name = "kg_ergo_algorithm"
+            url = "https://maven.pkg.github.com/marc-2024-08/kg-cicada"
+            credentials {
+                username = System.getenv("GITHUB_ACTOR")
+                password = System.getenv("GITHUB_TOKEN")
+            }
+        }
+    }
 }

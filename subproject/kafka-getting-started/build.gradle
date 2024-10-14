@@ -11,6 +11,7 @@ plugins {
     id "java"
     id "idea"
     id "eclipse"
+    id "maven-publish"
 }
 
 sourceCompatibility = "1.11"
@@ -48,4 +49,25 @@ jar {
 shadowJar {
     archiveBaseName = "kafka-getting-started"
     archiveClassifier = ''
+}
+
+publishing {
+    publications {
+        mavenPublication(MavenPublication) {
+            from components.java
+            groupId 'kg.ergo.demo'
+            artifactId 'kafka'
+        }
+    }
+
+    repositories {
+        maven {
+            name = "kg_ergo_app"
+            url = "https://maven.pkg.github.com/marc-2024-08/kg-cicada"
+            credentials {
+                username = System.getenv("GITHUB_ACTOR")
+                password = System.getenv("GITHUB_TOKEN")
+            }
+        }
+    }
 }

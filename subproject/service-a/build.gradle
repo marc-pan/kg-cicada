@@ -1,5 +1,6 @@
 apply plugin: 'war'
 apply plugin: 'liberty'
+apply plugin: 'maven-publish'
 
 def projectName = 'service-a'
 group = 'com.ibm.app'
@@ -53,3 +54,23 @@ ext  {
 
 }
 
+publishing {
+	publications {
+		mavenPublication(MavenPublication) {
+			from components.java
+            groupId 'kg.ergo.demo'
+            artifactId 'service-a'
+		}
+	}
+
+	repositories {
+		maven {
+			name = "kg_ergo_service_a"
+			url = "https://maven.pkg.github.com/marc-2024-08/kg-cicada"
+			credentials {
+				username = System.getenv("GITHUB_ACTOR")
+				password = System.getenv("GITHUB_TOKEN")
+			}
+		}
+	}
+}
