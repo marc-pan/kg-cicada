@@ -4,7 +4,6 @@ apply plugin: 'maven-publish'
 
 def projectName = 'service-b'
 group = 'com.ibm.app'
-version = '1.0-SNAPSHOT'
 
 description = "MicroProfile Starter example"
 

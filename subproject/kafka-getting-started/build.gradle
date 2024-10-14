@@ -16,7 +16,6 @@ plugins {
 
 sourceCompatibility = "1.11"
 targetCompatibility = "1.11"
-version = "0.0.1"
 
 repositories {
     mavenCentral()

@@ -15,3 +15,16 @@ include ':subproject:service-b'
 include ':subproject:batch'
 include ':subproject:algorithms'
 include ':subproject:kafka-getting-started'
+
+buildscript {
+    repositories {
+        maven {
+            url 'https://plugins.gradle.org/m2/'
+        }
+    }
+    dependencies {
+        classpath 'gradle.plugin.net.vivin:gradle-semantic-build-versioning:3.0.2'
+    }
+}
+
+apply plugin: 'net.vivin.gradle-semantic-build-versioning'
