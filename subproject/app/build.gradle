@@ -11,8 +11,6 @@ buildscript {
     }
 }
 
-import net.vivin.gradle.versioning.tasks.TagTask
-
 plugins {
 	id 'application'
 	id 'org.springframework.boot' version '3.3.4'
