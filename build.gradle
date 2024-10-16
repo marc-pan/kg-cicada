@@ -10,7 +10,7 @@ scmVersion {
     }
 }
 
-tasks.register("release") {
+tasks.register("version") {
     dependsOn("publish") // Or other tasks you need before release
     doLast {
         println("Version: $version") // Print the released version
