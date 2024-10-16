@@ -71,11 +71,11 @@ jobs:
         run: |
           ./gradlew build releaseVersion --no-commit
 
-      - name: Push new tag
-        env:
-          GITHUB_TOKEN: ${{ secrets.CI_GITHUB_TOKEN }}
-        run: |
-          git push origin --tags
+#      - name: Push new tag
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.CI_GITHUB_TOKEN }}
+#        run: |
+#          git push origin --tags
 
       - name: Create GitHub release
         env:
