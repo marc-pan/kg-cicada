@@ -7,7 +7,7 @@ allprojects {
 subprojects {
     apply plugin: 'java'
 
-    version = rootProject.version
+//    version = rootProject.version
     
     dependencies {
         testImplementation 'junit:junit:4.13.1'

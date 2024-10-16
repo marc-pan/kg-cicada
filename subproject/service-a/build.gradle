@@ -59,6 +59,7 @@ publishing {
 			from components.java
             groupId 'kg.ergo.demo'
             artifactId 'service-a'
+            version '1.0.0'
 		}
 	}
 

@@ -29,23 +29,24 @@ tasks.named('test', Test) {
 	}
 }
 
-//publishing {
-//    publications {
-//        mavenPublication(MavenPublication) {
-//            from components.java
-//            groupId 'kg.ergo.demo'
-//            artifactId 'algorithm'
-//        }
-//    }
-//
-//    repositories {
-//        maven {
-//            name = "kg_cicada"
-//            url = "https://maven.pkg.github.com/marc-2024-08/kg-cicada"
-//            credentials {
-//                username = System.getenv("GITHUB_ACTOR")
-//                password = System.getenv("GITHUB_TOKEN")
-//            }
-//        }
-//    }
-//}
+publishing {
+    publications {
+        mavenPublication(MavenPublication) {
+            from components.java
+            groupId 'kg.ergo.demo'
+            artifactId 'algorithm'
+            version '1.0.0'
+        }
+    }
+
+    repositories {
+        maven {
+            name = "kg_cicada"
+            url = "https://maven.pkg.github.com/marc-2024-08/kg-cicada"
+            credentials {
+                username = System.getenv("GITHUB_ACTOR")
+                password = System.getenv("GITHUB_TOKEN")
+            }
+        }
+    }
+}
