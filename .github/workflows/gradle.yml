@@ -65,26 +65,30 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@af1da67850ed9a4cedd57bfd976089dd991e2582 # v4.0.0
 
-      - name: Retrieve current version number before release
-        run: ./gradlew printVersion
-      - name: Create release tag
-        id: createRelease
-        run: |
-          ./gradlew build releaseVersion --no-commit
+      - uses: rymndhng/release-on-push-action@master
+        with:
+          bump_version_scheme: minor
 
-      - name: Push new tag
-        env:
-          GITHUB_TOKEN: ${{ secrets.CI_GITHUB_TOKEN }}
-        run: |
-          git push origin --tags
-
-      - name: Create GitHub release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          version=$(./gradlew -q printVersion)
-          tag=$(git describe --tags --abbrev=0)
-           ./gradlew -q printChangeLog | gh release create $tag -d -t "Example Project $version" -F -
+#      - name: Retrieve current version number before release
+#        run: ./gradlew printVersion
+#      - name: Create release tag
+#        id: createRelease
+#        run: |
+#          ./gradlew build releaseVersion --no-commit
+#
+#      - name: Push new tag
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.CI_GITHUB_TOKEN }}
+#        run: |
+#          git push origin --tags
+#
+#      - name: Create GitHub release
+#        env:
+#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#        run: |
+#          version=$(./gradlew -q printVersion)
+#          tag=$(git describe --tags --abbrev=0)
+#           ./gradlew -q printChangeLog | gh release create $tag -d -t "Example Project $version" -F -
 
       - name: Publish package
         run: ./gradlew publish
