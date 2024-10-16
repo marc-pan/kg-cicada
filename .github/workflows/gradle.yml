@@ -66,6 +66,22 @@ jobs:
 
       - name: Retrieve current version number before release
         run: ./gradlew printVersion
+      - name: Create release tag
+        id: createRelease
+        run: |
+          ./gradlew build releaseVersion --no-commit
+
+      - name: Push new tag
+        run: |
+          git push origin --tags
+
+      - name: Create GitHub release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          version=$(./gradlew -q printVersion)
+          tag=$(git describe --tags --abbrev=0)
+           ./gradlew -q printChangeLog | gh release create $tag -d -t "Example Project $version" -F -
 
       - name: Publish package
         run: ./gradlew publish
