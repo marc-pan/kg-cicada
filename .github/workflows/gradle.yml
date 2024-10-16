@@ -68,6 +68,8 @@ jobs:
       - uses: rymndhng/release-on-push-action@master
         with:
           bump_version_scheme: minor
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 #      - name: Retrieve current version number before release
 #        run: ./gradlew printVersion
