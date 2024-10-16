@@ -3,7 +3,8 @@ apply plugin: 'java'
 apply plugin: 'maven-publish'
 
 group = 'com.kg.algorithms'
-description 'An library for writing common algorithms'
+description = 'An library for writing common algorithms'
+version = '0.1.0'
 
 repositories {
     mavenCentral()
