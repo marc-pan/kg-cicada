@@ -31,16 +31,22 @@ tasks.named('test', Test) {
 
 publishing {
     publications {
-        mavenPublication(MavenPublication) {
+        maven(MavenPublication) {
+            groupId = 'kg.ergo.demo'
+            artifactId = 'algorithm'
+            version = '0.1.0'
             from components.java
-            groupId 'kg.ergo.demo'
-            artifactId 'algorithm'
+
+            pom {
+                name = 'kg algorithm library'
+                description = 'A algorithm library'
+            }
         }
     }
 
     repositories {
         maven {
-            name = "kg_ergo_algorithm"
+            name = "kg_ergo"
             url = "https://maven.pkg.github.com/marc-2024-08/kg-cicada"
             credentials {
                 username = System.getenv("GITHUB_ACTOR")
