@@ -14,7 +14,7 @@ plugins {
     id "maven-publish"
 }
 
-version = '0.1.0'
+version = project.property("version")
 sourceCompatibility = "1.11"
 targetCompatibility = "1.11"
 
