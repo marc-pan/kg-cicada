@@ -51,23 +51,22 @@ ext  {
 }
 
 publishing {
-	publications {
-		mavenPublication(MavenPublication) {
-			from components.java
+    publications {
+        mavenPublication(MavenPublication) {
+            from components.java
             groupId 'kg.ergo.demo'
             artifactId 'service-b'
-            version '1.0.0'
-		}
-	}
+        }
+    }
 
-	repositories {
-		maven {
-			name = "kg_cicada"
-			url = "https://maven.pkg.github.com/marc-2024-08/kg-cicada"
-			credentials {
-				username = System.getenv("GITHUB_ACTOR")
-				password = System.getenv("GITHUB_TOKEN")
-			}
-		}
-	}
+    repositories {
+        maven {
+            name = "kg_ergo_service_b"
+            url = "https://maven.pkg.github.com/marc-2024-08/kg-cicada"
+            credentials {
+                username = System.getenv("GITHUB_ACTOR")
+                password = System.getenv("GITHUB_TOKEN")
+            }
+        }
+    }
 }

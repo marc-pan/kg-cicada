@@ -43,13 +43,13 @@ publishing {
 	publications {
 		mavenPublication(MavenPublication) {
 			// bootJar is the default build task configured by Spring Boot
-            artifact bootJar
+			artifact bootJar
 		}
 	}
 
 	repositories {
 		maven {
-			name = "kg_cicada"
+			name = "kg_ergo_batch"
 			url = "https://maven.pkg.github.com/marc-2024-08/kg-cicada"
 			credentials {
 				username = System.getenv("GITHUB_ACTOR")

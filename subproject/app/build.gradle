@@ -63,7 +63,7 @@ publishing {
 
 	repositories {
 		maven {
-			name = "kg_cicada"
+			name = "kg_ergo_app"
 			url = "https://maven.pkg.github.com/marc-2024-08/kg-cicada"
 			credentials {
 				username = System.getenv("GITHUB_ACTOR")
