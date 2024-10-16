@@ -41,3 +41,4 @@ jobs:
         echo IMAGE_ID=$IMAGE_ID
         echo VERSION=$VERSION
         docker pull $IMAGE_NAME:$VERSION
+        docker rmi $IMAGE_NAME:$VERSION
