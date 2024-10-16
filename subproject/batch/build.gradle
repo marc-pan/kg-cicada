@@ -6,7 +6,6 @@ plugins {
 }
 
 group = 'kg.ergo.demo'
-version = project.property("version")
 
 java {
 	sourceCompatibility = '17'

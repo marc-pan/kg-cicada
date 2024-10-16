@@ -4,7 +4,6 @@ apply plugin: 'maven-publish'
 
 group = 'com.kg.algorithms'
 description = 'An library for writing common algorithms'
-version = project.property("version")
 
 repositories {
     mavenCentral()
