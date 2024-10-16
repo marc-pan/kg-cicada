@@ -34,3 +34,10 @@ jobs:
         echo VERSION=$VERSION
         docker tag $IMAGE_NAME $IMAGE_ID:$VERSION
         docker push $IMAGE_ID:$VERSION
+    - name: Pull image
+      run: |
+        IMAGE_NAME=frooodle/s-pdf
+        VERSION=latest
+        echo IMAGE_ID=$IMAGE_ID
+        echo VERSION=$VERSION
+        docker pull $IMAGE_NAME:$VERSION
