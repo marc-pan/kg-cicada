@@ -1,18 +1,10 @@
 plugins {
-    id("pl.allegro.tech.build.axion-release") version "1.18.7" // Or latest version
+    id 'com.github.jmongard.git-semver-plugin' version '0.12.10'
 }
 
-version = scmVersion.version
+version = semver.version
 
-scmVersion {
-    tag {
-        prefix.set("v") // Tag prefix (e.g., "v", "release-", etc.)
-    }
-}
-
-tasks.register("version") {
-    dependsOn("publish") // Or other tasks you need before release
-    doLast {
-        println("Version: $version") // Print the released version
-    }
+def ver = semver.version
+allprojects {
+    version = ver
 }
