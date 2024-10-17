@@ -4,8 +4,8 @@ apply plugin: 'maven-publish'
 
 def projectName = 'service-a'
 group = 'com.ibm.app'
-
 description = "MicroProfile Starter example"
+version = project.version
 
 sourceCompatibility = JavaVersion.VERSION_11
 targetCompatibility = JavaVersion.VERSION_11
@@ -24,7 +24,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'io.openliberty.tools:liberty-gradle-plugin:3.3.1'
+        classpath 'io.openliberty.tools:liberty-gradle-plugin:3.9.0'
     }
 }
 

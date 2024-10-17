@@ -13,6 +13,9 @@ plugins {
     id "eclipse"
     id "maven-publish"
 }
+group = 'kg.ergo.demo'
+description = 'A simple kafka example'
+version = project.version
 
 sourceCompatibility = "1.11"
 targetCompatibility = "1.11"
