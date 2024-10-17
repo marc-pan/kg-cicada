@@ -8,7 +8,7 @@ subprojects {
     apply plugin: 'java'
     
     dependencies {
-        testImplementation 'junit:junit:4.13.1'
+        testImplementation 'junit:junit:4.13.2'
         testImplementation(libs.mockito.core)
     }
 }
