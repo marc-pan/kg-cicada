@@ -4,8 +4,8 @@ apply plugin: 'maven-publish'
 
 def projectName = 'service-b'
 group = 'com.ibm.app'
-
 description = "MicroProfile Starter example"
+version = project.version
 
 sourceCompatibility = JavaVersion.VERSION_11
 targetCompatibility = JavaVersion.VERSION_11
@@ -51,22 +51,22 @@ ext  {
 }
 
 publishing {
-	publications {
-		mavenPublication(MavenPublication) {
-			from components.java
+    publications {
+        mavenPublication(MavenPublication) {
+            from components.java
             groupId 'kg.ergo.demo'
             artifactId 'service-b'
-		}
-	}
+        }
+    }
 
-	repositories {
-		maven {
-			name = "kg_ergo_service_b"
-			url = "https://maven.pkg.github.com/marc-2024-08/kg-cicada"
-			credentials {
-				username = System.getenv("GITHUB_ACTOR")
-				password = System.getenv("GITHUB_TOKEN")
-			}
-		}
-	}
+    repositories {
+        maven {
+            name = "kg_ergo_service_b"
+            url = "https://maven.pkg.github.com/marc-2024-08/kg-cicada"
+            credentials {
+                username = System.getenv("GITHUB_ACTOR")
+                password = System.getenv("GITHUB_TOKEN")
+            }
+        }
+    }
 }
