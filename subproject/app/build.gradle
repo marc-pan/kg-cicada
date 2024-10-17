@@ -22,6 +22,7 @@ apply plugin: 'liberty'
 
 group = 'kg.ergo.demo'
 description = "An app example"
+version = project.version
 
 application {
   mainClass = 'kg.ergo.demo.app.AppApplication'

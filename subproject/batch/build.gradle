@@ -6,6 +6,8 @@ plugins {
 }
 
 group = 'kg.ergo.demo'
+description = 'A batch example using Spring Batch framework'
+version = project.version
 
 java {
 	sourceCompatibility = '17'
