@@ -7,6 +7,10 @@
  * in the user manual at https://docs.gradle.org/8.0.2/userguide/multi_project_builds.html
  */
 
+plugins {
+    id 'com.javiersc.semver' version '0.8.0'
+}
+
 rootProject.name = 'kg-ergo-demo'
 
 include ':subproject:app'
@@ -16,3 +20,4 @@ include ':subproject:batch'
 include ':subproject:algorithms'
 include ':subproject:kafka-getting-started'
 include ':subproject:cash-card-application'
+
