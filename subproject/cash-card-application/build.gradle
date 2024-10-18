@@ -48,6 +48,7 @@ test {
 publishing {
     publications {
         maven(MavenPublication) {
+            version = project.version
             // bootJar is the default build task configured by Spring Boot
             artifact bootJar
         }

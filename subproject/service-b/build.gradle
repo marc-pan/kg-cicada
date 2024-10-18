@@ -54,8 +54,9 @@ publishing {
     publications {
         mavenPublication(MavenPublication) {
             from components.java
-            groupId 'kg.ergo.demo'
-            artifactId 'service-b'
+            groupId = 'kg.ergo.demo'
+            artifactId = 'service-b'
+            version = project.version
         }
     }
 
