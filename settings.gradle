@@ -7,6 +7,12 @@
  * in the user manual at https://docs.gradle.org/8.0.2/userguide/multi_project_builds.html
  */
 
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
 plugins {
     id 'com.javiersc.semver' version '0.8.0'
 }
@@ -21,3 +27,4 @@ include ':subproject:algorithms'
 include ':subproject:kafka-getting-started'
 include ':subproject:cash-card-application'
 
+includeBuild 'spring-core-lab'
