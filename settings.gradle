@@ -26,5 +26,3 @@ include ':subproject:batch'
 include ':subproject:algorithms'
 include ':subproject:kafka-getting-started'
 include ':subproject:cash-card-application'
-
-includeBuild 'spring-core-lab'
