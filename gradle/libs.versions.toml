@@ -1,5 +1,5 @@
 [versions]
-mockito = "5.14.1"
+mockito = "5.14.2"
 
 [libraries]
 mockito-core = { module = "org.mockito:mockito-core", version.ref = "mockito"}
