@@ -85,7 +85,7 @@ oc get sc -n nfs-provisioner
 
 # Mandatory: only for v5.0
 prepare_case_resolver() {
-  export GITHUB_TOKEN="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"
+#  export GITHUB_TOKEN="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"
   cat > $WORK_DIR/play_env.sh << EOF
 export CASECTL_RESOLVERS_LOCATION=/tmp/work/resolvers.yaml
 export CASECTL_RESOLVERS_AUTH_LOCATION=/tmp/work/resolvers_auth.yaml
