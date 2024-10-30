@@ -1,0 +1,70 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "airflow-demo"
+dynamic = ["version"]
+description = 'A simple examples demostrates how to use airflow'
+readme = "README.md"
+requires-python = ">=3.8"
+license = "Apache-2.0"
+keywords = ["airflow"]
+authors = [
+  { name = "marc.pan", email = "pxy0592@sina.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+  "apache-airflow"
+]
+
+[project.urls]
+Documentation = "https://github.com/marc.pan/kg-cicada/pyproject/airflow-demo#readme"
+Issues = "https://github.com/marc.pan/kg-cicada/issues"
+Source = "https://github.com/marc.pan/kg-cicada"
+
+[tool.hatch.version]
+path = "src/airflow_demo/__about__.py"
+
+[tool.hatch.envs.airflow-env]
+dependencies = [
+  "pytest",
+  "pytest-cov",
+  "apache-airflow"
+]
+
+[tool.hatch.envs.types]
+extra-dependencies = [
+  "mypy>=1.0.0",
+]
+[tool.hatch.envs.types.scripts]
+check = "mypy --install-types --non-interactive {args:src/airflow_demo tests}"
+
+[tool.coverage.run]
+source_pkgs = ["airflow_demo", "tests"]
+branch = true
+parallel = true
+omit = [
+  "src/airflow_demo/__about__.py",
+]
+
+[tool.coverage.paths]
+airflow_demo = ["src/airflow_demo", "*/airflow-demo/src/airflow_demo"]
+tests = ["tests", "*/airflow-demo/tests"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
